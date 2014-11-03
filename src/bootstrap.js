@@ -33,7 +33,6 @@ util        = require('util'),
 underscore  = require('underscore'),
 winston     = require('winston'),
 helper      = require('./lib/helper'),
-cdn         = require('./lib/cdn'),
 path        = require('path'),
 defs        = require('../config/defs'),
 envConfig   = require('config'),
@@ -47,7 +46,7 @@ require('ssl-root-cas/latest').inject();
 
 // globals
 GLOBAL.app = app;
-GLOBAL.CFG_CDN = envConfig.cdn;
+GLOBAL.CFG_CDN = envConfig.cdn.localPath;
 GLOBAL.CFG = envConfig;
 GLOBAL.DEFS = defs;
 GLOBAL.SERVER_ROOT = path.resolve(__dirname);
@@ -57,15 +56,21 @@ GLOBAL.DATA_DIR = path.resolve((0 === envConfig.datadir.indexOf('/')
     : GLOBAL.SERVER_ROOT + '/../' + envConfig.datadir));
 
 //
-GLOBAL.CDN_DIR = path.resolve(0 === envConfig.cdn.indexOf('/')
-    ? envConfig.cdn
-    : GLOBAL.SERVER_ROOT + '/../' + envConfig.cdn);
+GLOBAL.CDN_DIR = path.resolve(0 === envConfig.cdn.localPath.indexOf('/')
+    ? envConfig.cdn.localPath
+    : GLOBAL.SERVER_ROOT + '/../' + envConfig.cdn.localPath);
 
 // attach general helpers to the app
 app.helper = helper;
-app.cdn = cdn;
 app._ = underscore;
-
+if (GLOBAL.CFG.cdn.hasOwnProperty("provider") && GLOBAL.CFG.cdn.hasOwnProperty("config")) {
+  console.log('Using '+GLOBAL.CFG.cdn.provider+' for temporary file storage.');
+  app.cdn = require('./modules/cdn/rackspace.js');
+}
+else {
+  console.log('Using local filesystem for temporary file storage.');
+  app.cdn = require('./modules/cdn/prototype.js');
+}
 app.isMaster = cluster.isMaster;
 
 /*
@@ -156,4 +161,3 @@ bastion = new require('./managers/bastion');
 module.exports.app = app;
 module.exports.app.dao = new dao(CFG, app.logmessage);
 module.exports.app.bastion = new bastion(module.exports.app.dao, process.HEADLESS);
-module.exports.app.cdn = new require('./modules/cloudfiles');

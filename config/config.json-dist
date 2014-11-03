@@ -82,7 +82,9 @@
         "defaultExchange": "public_inbound"
     },
     "datadir" : "data",
-    "cdn": "data/cdn",
+    "cdn": {
+        "localPath" : "data/cdn",
+    },
     "k": {
     },
     "jwtKey" : "",
