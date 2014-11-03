@@ -138,14 +138,16 @@ cloudFiles.httpStream = function(url, outFile, cb, exports, fileStruct) {
 	fs.exists(outFile, function(exists) {
 	  //if file exists on FS
 		if (exists) {
-		//check for container's existence on CDN
+			app.logmessage( 'EXISTS on FS, now checking CDN');
 			self.container.find(account, function(err, container){
 			//if container exists
 				if (container) {
 				//check for file existence in container
+					app.logmessage( 'CONTAINER EXISTS, now checking for file ['+tmpFileName+']');
 					self.file.find(container.name, tmpFileName, function(err, file){
 					//if file exists
 						if (file) {
+							app.logmessage( 'CDN CACHED, moving on with ['+tmpFileName+']');
 							//move on
 							fs.stat(outFile, function(err, stats) {
 								if (err) {
@@ -153,7 +155,7 @@ cloudFiles.httpStream = function(url, outFile, cb, exports, fileStruct) {
 									next(true);
 								} 
 								else {
-									app.logmessage( self._name + ' CACHED, skipping [' + outFile + ']');
+									app.logmessage( 'FS CACHED, skipping [' + outFile + ']');
 									fileStruct.size = stats.size;
 									cb(false, exports, fileStruct);
 								}
@@ -161,6 +163,7 @@ cloudFiles.httpStream = function(url, outFile, cb, exports, fileStruct) {
 						}
 						//if file doesn't exist
 						if (err) {
+							app.logmessage( 'FILE MISSING, synchronizing file ['+tmpFileName+'] in CDN container ['+container.name+']');
 							//upload file
 							self.uploadToCDN(url, outFile, cb, container.name, tmpFileName, self);
 						}
@@ -168,11 +171,12 @@ cloudFiles.httpStream = function(url, outFile, cb, exports, fileStruct) {
 				}
 				//if container doesn't exist
 				if (err) {
+					app.logmessage( 'CONTAINER MISSING, now creating CDN container for file ['+tmpFileName+']');
 					//create container
 					self.container.create(account, function(err, container) {
 						if (container) {
 							//upload file
-							app.logmessage(self._name + ' created container ' + container.name)
+							app.logmessage('CREATED CONTAINER [' + container.name + '], now uploading file [' + tmpFileName + ']')
 							self.uploadToCDN(url, outFile, cb, container.name, tmpFileName, self);
 				 		}
 					});
@@ -182,11 +186,11 @@ cloudFiles.httpStream = function(url, outFile, cb, exports, fileStruct) {
 		//if file doesnt exist on FS
 		else {
 			//download file to FS
-			app.logmessage( self._name + ' creating local file ' + outFile);
+			app.logmessage('CREATING local file [' + outFile + ']');
 			var writeStream = fs.createWriteStream(outFile);
 			request.get(url).pipe(writeStream)
 			writeStream.on('close', function() {
-				app.logmessage(self._name + ' finished local download of ' + tmpFileName);
+				app.logmessage('FINISHED local download of [' + tmpFileName + ']');
 				cb(false, exports, fileStruct);
 			});
 		}
@@ -200,7 +204,7 @@ cloudFiles.uploadToCDN = function(url, outFile, cb, containerName, tmpFileName, 
 		local: outFile
 	}, function(err, result) {
 		if (result) {
-			app.logmessage(self._name + ' finished uploading ' + tmpFileName + ' to CloudFiles container ' + containerName);
+			app.logmessage('FINISHED uploading file [' + tmpFileName + '] to CloudFiles container [' + containerName + ']');
 			cb(false, exports, fileStruct);
 		}
 		if (err) {
