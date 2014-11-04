@@ -83,7 +83,7 @@
     },
     "datadir" : "data",
     "cdn": {
-        "localPath" : "data/cdn",
+        "localPath" : "data/cdn"
     },
     "k": {
     },

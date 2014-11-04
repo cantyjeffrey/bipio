@@ -201,10 +201,10 @@ function cdnSelect() {
   }
 
   prompt(cndSelect, function(answer) {
-    if ('' === answer.cdn) {
-      answer.cdn = valDefault;
+    if ('' === answer.cdn.localPath) {
+      answer.cdn.localPath = valDefault;
     }
-    sparseConfig.cdn = path.resolve(answer.cdn);
+    sparseConfig.cdn.localPath = path.resolve(answer.cdn.localPath);
     createDataDirs();
   });
 }
@@ -219,9 +219,9 @@ function createDataDirs() {
 
   fs.mkdir(path.join(sparseConfig.datadir, "tmp"), 0755, true, cb);
   fs.mkdir(path.join(sparseConfig.datadir, "channels"), 0755, true, cb);
-  fs.mkdir(path.join(sparseConfig.cdn, "img/av"), 0755, true, cb);
-  fs.mkdir(path.join(sparseConfig.cdn, "img/icofactory"), 0755, true, cb);
-  fs.mkdir(path.join(sparseConfig.cdn, "img/pods"), 0755, true, cb);
+  fs.mkdir(path.join(sparseConfig.cdn.localpath, "img/av"), 0755, true, cb);
+  fs.mkdir(path.join(sparseConfig.cdn.localpath, "img/icofactory"), 0755, true, cb);
+  fs.mkdir(path.join(sparseConfig.cdn.localpath, "img/pods"), 0755, true, cb);
 
   aesSetup();
 }
