@@ -55,10 +55,11 @@ GLOBAL.DATA_DIR = path.resolve((0 === envConfig.datadir.indexOf('/')
     ? envConfig.datadir
     : GLOBAL.SERVER_ROOT + '/../' + envConfig.datadir));
 
-//
-GLOBAL.CDN_DIR = path.resolve(0 === envConfig.cdn.localPath.indexOf('/')
-    ? envConfig.cdn.localPath
-    : GLOBAL.SERVER_ROOT + '/../' + envConfig.cdn.localPath);
+// @todo - deprecate old envConfig.cdn structure
+var cdnPath = envConfig.cdn.localPath ? envConfig.cdn.localPath : envConfig.cdn;
+GLOBAL.CDN_DIR = path.resolve(0 === cdnPath.indexOf('/')
+    ? cdnPath
+    : GLOBAL.SERVER_ROOT + '/../' + cdnPath);
 
 // attach general helpers to the app
 app.helper = helper;

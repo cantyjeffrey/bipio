@@ -556,6 +556,25 @@ var helper = {
       input = JSON.parse(input);
     }
     return input;
+  },
+
+  fileHash : function(filePath, next) {
+    // the file you want to get the hash
+    var fd = fs.createReadStream(filePath);
+    var hash = crypto.createHash('sha1');
+    hash.setEncoding('hex');
+
+    fd.on('end', function() {
+        hash.end();
+        next(false, hash.read())
+    });
+
+    fd.on('error', function(err) {
+      next(err);
+    });
+
+    // read all file and pipe it (write it) to the hash object
+    fd.pipe(hash);
   }
 
 }

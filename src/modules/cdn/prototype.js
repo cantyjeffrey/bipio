@@ -17,7 +17,26 @@ var fs = require('fs'),
 // -----------------------------------------------------------------------------
 
 var FileStorage = {
-	
+
+	fileHash : function(filePath, next) {
+    // the file you want to get the hash
+    var fd = fs.createReadStream(filePath);
+    var hash = crypto.createHash('sha1');
+    hash.setEncoding('hex');
+
+    fd.on('end', function() {
+        hash.end();
+        next(false, hash.read())
+    });
+
+    fd.on('error', function(err) {
+      next(err);
+    });
+
+    // read all file and pipe it (write it) to the hash object
+    fd.pipe(hash);
+  },
+
 	httpSnarfResponseHandler : function(res, srcUrl, dstFile, next, hops) {
 	    if (hops > 3) {
 	    	next(true, 'too many redirects');
@@ -86,7 +105,7 @@ var FileStorage = {
 	     * Given a file creation strategy we know about, takes the meta data payload
 	     * and renormalizes it for internal use
 	     *
-	     */    
+	     */
 	normedMeta: function(strategy, txId, payload) {
 	    var normFiles = [],
 	    struct, f;
@@ -149,7 +168,7 @@ var FileStorage = {
 	convert : function(args, next) {
 		imagemagick.convert(args, next);
 	},
-  
+
 	resize : function(args, next) {
 		imagemagick.resize(args, next);
 	},
@@ -179,14 +198,14 @@ var FileStorage = {
 	    });
 
 	    res.on('end', function() {
-	      var suffix, hashFile;      
+	      var suffix, hashFile;
 	      if (favUrl) {
 	        suffix = '.' + favUrl.split('.').pop().replace(/\?.*$/, '');
 	        hashFile = app.helper.strHash(host) + suffix
 	      }
 
 	      p.end();
-	      next(favUrl, suffix, hashFile);      
+	      next(favUrl, suffix, hashFile);
 	    });
 	},
 
@@ -255,7 +274,7 @@ var FileStorage = {
 		fs.exists(outLock, function(exists) {
 			if (exists) {
 				app.logmessage(' LOCKED, skipping [' + outFile + ']');
-			} 
+			}
 			else {
 				app.logmessage(' writing to [' + outFile + ']');
 				fs.exists(outFile, function(exists) {

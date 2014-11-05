@@ -21,7 +21,6 @@
  */
 var util        = require('util'),
   helper      = require('../lib/helper'),
-  cdn         = require('../lib/cdn'),
   crypto = require('crypto'),
   step        = require('../lib/step'), // @todo deprecate, use Q
   async       = require('async'), // @todo deprecate, use Q
@@ -40,7 +39,7 @@ function Dao(config, log, next) {
 
   // protocol + base url
   this._baseUrl = config.proto_public + config.domain_public;
-  this.cdn = cdn;
+  this.cdn = app.cdn;
   this._modelPrototype = require('../models/prototype.js').BipModel;
 
   var modelSrc = {
