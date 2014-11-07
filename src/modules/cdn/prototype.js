@@ -18,41 +18,6 @@ var fs = require('fs'),
 
 var FileStorage = {
 
-	fileHash : function(fileStruct, next) {
-    // the file you want to get the hash
-    var fd = fs.createReadStream(fileStruct.localpath);
-    var hash = crypto.createHash('sha1');
-    hash.setEncoding('hex');
-
-    fd.on('end', function() {
-        hash.end();
-        next(false, hash.read())
-    });
-
-    fd.on('error', function(err) {
-      next(err);
-    });
-
-    // read all file and pipe it (write it) to the hash object
-    fd.pipe(hash);
-  },
-
-streamToBuffer : function(readStream, next) {
-var buffers = [];
-    readStream.on('data', function(chunk) {
-        buffers.push(chunk);
-    });
-
-    readStream.on('error', function(err) {
-        next(err);
-    });
-
-    readStream.on('end', function() {
-      next(false, Buffer.concat(buffers));
-
-    });	
-},
-
 	httpSnarfResponseHandler : function(res, srcUrl, dstFile, next, hops) {
 	    if (hops > 3) {
 	    	next(true, 'too many redirects');
