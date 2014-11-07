@@ -37,6 +37,22 @@ var FileStorage = {
     fd.pipe(hash);
   },
 
+streamToBuffer : function(readStream, next) {
+var buffers = [];
+    readStream.on('data', function(chunk) {
+        buffers.push(chunk);
+    });
+
+    readStream.on('error', function(err) {
+        next(err);
+    });
+
+    readStream.on('end', function() {
+      next(false, Buffer.concat(buffers));
+
+    });	
+},
+
 	httpSnarfResponseHandler : function(res, srcUrl, dstFile, next, hops) {
 	    if (hops > 3) {
 	    	next(true, 'too many redirects');
