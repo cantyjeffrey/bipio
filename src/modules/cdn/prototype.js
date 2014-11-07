@@ -18,9 +18,9 @@ var fs = require('fs'),
 
 var FileStorage = {
 
-	fileHash : function(filePath, next) {
+	fileHash : function(fileStruct, next) {
     // the file you want to get the hash
-    var fd = fs.createReadStream(filePath);
+    var fd = fs.createReadStream(fileStruct.localpath);
     var hash = crypto.createHash('sha1');
     hash.setEncoding('hex');
 
