@@ -558,25 +558,37 @@ var helper = {
     return input;
   },
 
-  fileHash : function(filePath, next) {
-    // the file you want to get the hash
-    var fd = fs.createReadStream(filePath);
+  streamToHash : function(readStream, next) {
     var hash = crypto.createHash('sha1');
     hash.setEncoding('hex');
 
-    fd.on('end', function() {
+    readStream.on('end', function() {
         hash.end();
-        next(false, hash.read())
+        next(false, hash.read());
     });
 
-    fd.on('error', function(err) {
+    readStream.on('error', function(err) {
       next(err);
     });
 
-    // read all file and pipe it (write it) to the hash object
-    fd.pipe(hash);
-  }
+    readStream.pipe(hash);
+  },
 
+  streamToBuffer : function(readStream, next) {
+    var buffers = [];
+    readStream.on('data', function(chunk) {
+        buffers.push(chunk);
+    });
+
+    readStream.on('error', function(err) {
+        next(err);
+    });
+
+    readStream.on('end', function() {
+      next(false, Buffer.concat(buffers));
+
+    });
+  }
 }
 
 //

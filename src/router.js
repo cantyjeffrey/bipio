@@ -116,7 +116,7 @@ function publicFilter(modelName, modelStruct) {
  */
 function restAuthWrapper(req, res, next) {
   if (!req.header('authorization') && req.session.account && req.session.account.host === getClientInfo(req).host && !req.masqUser) {
-    dao.getAccountStruct(req.session.account, function(err, accountInfo) {
+    app.modules.auth.getAccountStruct(req.session.account, function(err, accountInfo) {
       if (!err) {
         req.remoteUser = req.user = accountInfo;
         next();
@@ -126,7 +126,7 @@ function restAuthWrapper(req, res, next) {
     });
   } else {
     return connect.basicAuth(function(user, pass, next) {
-      dao.checkAuth(user, pass, 'token', next, false, null, req.masqUser);
+      app.modules.auth.test(user, pass, { masquerade : req.masqUser }, next);
     })(req, res, next);
   }
 }
@@ -411,58 +411,53 @@ function bipBasicFail(req, res) {
  * HTTP auth on this endpoint unless the bip is explicitly 'none'
  */
 function bipAuthWrapper(req, res, cb) {
-  (function(domain, req, res) {
-    var bipName = req.params.bip_name;
-    dao.domainAuth(domain, true, function(err, accountResult) {
-      if (err || !accountResult) {
-        // reject always
-        bipBasicFail(req, res);
-      } else {
-        // attach user
-        req.remoteUser = accountResult;
-        var ownerId = accountResult.getId(),
-        domainId = accountResult.getActiveDomain(),
-        filter = {
-          'name' : bipName,
-          'type' : 'http',
-          'paused' : false,
-          'owner_id' : ownerId,
-          'domain_id' : domainId
-        };
-        dao.find('bip', filter, function(err, result) {
-          var username,password;
-          if (!err && result) {
-            if (result.config.auth == 'none') {
-              cb(false, true);
-            } else if (result.config.auth == 'token') {
-              // account token auth
-              connect.basicAuth(function(user, pass, cb){
-                dao.checkAuth(user, pass, 'token', cb, false, null, req.masqUser);
-              })(req, res, cb);
+  app.modules.auth.domainAuth(helper.getDomain(req.headers.host, true), function(err, acctResult) {
 
-            } else if (result.config.auth == 'basic') {
-              connect.basicAuth(function(username, password, cb){
-                cb(
-                  false,
-                  (result.config.username && result.config.username == username
-                    &&
-                    result.config.password && result.config.password == password) ?
-                  accountResult : null
-                  );
-              })(req, res, cb);
-            } else {
-              // reject always
-              bipBasicFail(req, res);
-            }
+    if (err || !domain) {
+      // reject always
+      bipBasicFail(req, res);
+    } else {
+      filter = {
+        'name' : req.params.bip_name,
+        'type' : 'http',
+        'paused' : false,
+        'domain_id' : acctResult.domain_id
+      };
+
+      dao.find('bip', filter, function(err, result) {
+
+        if (!err && result) {
+          if (result.config.auth == 'none') {
+            req.remoteUser = acctResult;
+
+            cb(false, true);
+
           } else {
-            // reject always
-            restResponse(res)(true, null, 404);
-          //error, modelName, results, code, options
+            connect.basicAuth(function(username, password, next) {
+
+              if ('basic' === result.config.auth) {
+                var authed = result.config.username
+                  && result.config.username == username
+                  && result.config.password
+                  && result.config.password == password;
+
+                if (authed) {
+                  app.modules.auth.test(result.owner_id, password, { acctBind : true, asOwner : true, masquerade : req.masqUser }, next);
+                } else {
+                  bipBasicFail(req, res);
+                }
+
+              } else if ('token' === result.config.auth) {
+                app.modules.auth.test(username, password, { masquerade : req.masqUser }, next);
+              } else {
+                bipBasicFail(req, res);
+              }
+            })(req, res, cb);
           }
-        });
-      }
-    });
-  })(helper.getDomain(req.headers.host, true), req, res);
+        }
+      });
+    }
+  });
 }
 
 module.exports = {
@@ -576,39 +571,27 @@ module.exports = {
      * DomainAuth channel renderer
      */
     express.get('/rpc/render/channel/:channel_id/:renderer', restAuthWrapper, function(req, res) {
+        var filter = {
+          owner_id: req.remoteUser.getId(),
+          id : req.params.channel_id
+        };
 
-      var domain = helper.getDomain(req.headers.host, true);
-      (function(domain, req, res) {
-        dao.domainAuth(domain, true, function(err, accountResult) {
-          if (err || !accountResult) {
+        dao.find('channel', filter, function(err, result) {
+          if (err || !result) {
             app.logmessage(err, 'error');
-            res.status(403).end();
+            res.status(404).end();
           } else {
-            var filter = {
-              owner_id: accountResult.user.id,
-              id : req.params.channel_id
-            };
+            var channel = dao.modelFactory('channel', result, req.remoteUser);
 
-            dao.find('channel', filter, function(err, result) {
-              if (err || !result) {
-                app.logmessage(err, 'error');
-                res.status(404).end();
-              } else {
-                req.remoteUser = accountResult;
-                var channel = dao.modelFactory('channel', result, accountResult);
-
-                channel.rpc(
-                  req.params.renderer,
-                  req.query,
-                  getClientInfo(req),
-                  req,
-                  res
-                  );
-              }
-            });
+            channel.rpc(
+              req.params.renderer,
+              req.query,
+              getClientInfo(req),
+              req,
+              res
+              );
           }
         });
-      })(domain, req, res);
     });
 
     /**
@@ -621,7 +604,7 @@ module.exports = {
 
       // check that authentication is supported/required by this pod
       if (pod) {
-        if (!pod.oAuthRPC(podName, method, req, res)) {
+        if (!pod.oAuthRPC(method, req, res)) {
           res.status(415).end();
         }
       } else {
@@ -638,7 +621,7 @@ module.exports = {
       method = req.params.auth_method;
 
       // check that authentication is supported/required by this pod
-      if (!pod.issuerTokenRPC(podName, method, req, res)) {
+      if (!pod.issuerTokenRPC(method, req, res)) {
         res.status(415).end();
       }
     });
@@ -666,7 +649,7 @@ module.exports = {
             getClientInfo(req),
             req,
             res
-            );
+          );
 
         } else {
           res.status(404).end();
@@ -948,7 +931,7 @@ module.exports = {
       var user = credentials.slice(0, index),
       pass = credentials.slice(index + 1);
 
-      dao.checkAuth(user, pass, 'token', function(err, result) {
+      app.modules.auth.test(user, pass, { masquerade : req.masqUser}, function(err, result) {
         if (err) {
           res.status(401).end()
         } else {
@@ -966,7 +949,7 @@ module.exports = {
 
           res.send(publicFilter('account_option', result.user.settings));
         }
-      }, false, null, req.masqUser);
+      });
     });
 
     express.get('/logout', function(req, res) {
@@ -983,9 +966,8 @@ module.exports = {
         next();
       } else {
         // try to find a default renderer for this domain
-        dao.domainAuth(
+        app.modules.auth.domainAuth(
           helper.getDomain(req.headers.host, true),
-          true,
           function(err, accountResult) {
             if (err) {
               res.status(500).end();
