@@ -86,7 +86,7 @@ for (k in envConfig.modules) {
   }
 }
 
-app.cdn = app.modules["fs-cdn"];
+// Note: fs-cdn module is now available as app.modules.cdn
 
 /*
 memwatch.on('leak', function(info) {
