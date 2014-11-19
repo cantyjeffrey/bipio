@@ -64,14 +64,7 @@ GLOBAL.CDN_DIR = path.resolve(0 === cdnPath.indexOf('/')
 // attach general helpers to the app
 app.helper = helper;
 app._ = underscore;
-if (GLOBAL.CFG.cdn.hasOwnProperty("provider") && GLOBAL.CFG.cdn.hasOwnProperty("config")) {
-  console.log('Using '+GLOBAL.CFG.cdn.provider+' for temporary file storage.');
-  app.cdn = require('./modules/cdn/rackspace.js');
-}
-else {
-  console.log('Using local filesystem for temporary file storage.');
-  app.cdn = require('./modules/cdn/prototype.js');
-}
+
 app.isMaster = cluster.isMaster;
 
 app.modules = {};
@@ -92,6 +85,8 @@ for (k in envConfig.modules) {
     app.modules[k] = new ModProto(mod.config);
   }
 }
+
+app.cdn = app.modules["fs-cdn"];
 
 /*
 memwatch.on('leak', function(info) {
