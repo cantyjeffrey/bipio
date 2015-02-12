@@ -414,7 +414,7 @@ Bastion.prototype.bipUnpack = function(type, name, accountInfo, client, next) {
                   }
 
                   // just incase
-                  bindTo = helper.sanitize(bindTo).xss();
+                  bindTo = helper.sanitize(bindTo); 
 
                   self._dao.updateColumn('bip', bipModel.id, { 'binder' : [ bindTo ] }, function(err, result) {
                     if (err) {

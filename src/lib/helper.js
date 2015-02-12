@@ -20,25 +20,29 @@
  *
 
  */
-var    bcrypt      = require('bcrypt'),
-crypto = require('crypto'),
+var bcrypt = require('bcrypt'),
 baseConverter = require('base-converter'),
-tldtools    = require('tldtools'),
-url = require('url'),
-fs = require('fs'),
-path = require('path'),
-http    = require('http'),
-https    = require('https'),
-mkdirp = require('mkdirp'),
-validator = require('validator'),
+crypto = require('crypto'),
 djs = require('datejs'),
 dns = require('dns'),
-uuid = require('node-uuid'),
+ent = require('ent'),
+encode = require('ent/encode'),
+decode = require('ent/decode'),
+favitest = require('favitest'),
+fs = require('fs'),
+http = require('http'),
+https = require('https'),
 ipaddr = require('ipaddr.js'),
-rimraf = require('rimraf'),
-_ = require('underscore'),
 JSONPath = require('JSONPath'),
-favitest = require('favitest');
+mkdirp = require('mkdirp'),
+path = require('path'),
+rimraf = require('rimraf'),
+sanitizeHtml = require('sanitize-html'),
+tldtools = require('tldtools'),
+url = require('url'),
+//validator = require('validator'),
+uuid = require('node-uuid'),
+_ = require('underscore');
 
 var helper = {
 
@@ -63,7 +67,7 @@ var helper = {
   },
 
   sanitize : function(str) {
-    return validator.sanitize(str);
+    return sanitizeHtml(str);
   },
 
   /**
@@ -72,8 +76,8 @@ var helper = {
      * nasty hackity hack
      */
   _realScrub : function(str, noEscape) {
-    var retStr = helper.sanitize(str).xss();
-    retStr = helper.sanitize(retStr).trim();
+    //var retStr = helper.sanitize(str).xss();
+    var retStr = helper.sanitize(str).trim();
     if (!noEscape) {
       //retStr = helper.sanitize(retStr).escape();
     }
@@ -132,11 +136,13 @@ var helper = {
         src[i] = this.naturalize(src[i]);
       }
     } else if (this.isString(src)) {
-      src = validator.sanitize(src).entityDecode();
+      src = sanitizeHtml(src);
+	  src = ent.decode(src);
     } else if (this.isObject(src)) {
       var newSrc = {};
       for (key in src) {
-        newKey = validator.sanitize(key).entityDecode();
+        newKey = sanitizeHtml(key);
+		newKey = ent.decode(newKey);
         newSrc[newKey] = this.naturalize(src[key]);
       }
       src = newSrc;
@@ -211,7 +217,7 @@ var helper = {
   },
 
   validator : function() {
-    return validator.check;
+    return sanitizeHtml;
   },
 
   copyProperty : function(src, dst, overrideDst, propName) {
