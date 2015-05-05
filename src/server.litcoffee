@@ -12,7 +12,7 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with this program. If not, see [here](http://www.gnu.org/licenses/)
+You should have received a copy of the GNU General Public License along with this program. If not, see [here](http://www.gnu.org/licenses/).
 
 ----
 
@@ -38,7 +38,7 @@ You should have received a copy of the GNU General Public License along with thi
 	pkg 					= require('../package.json')
 	bipioVersion			= pkg.version
 
-	#export app everywhere
+export app everywhere
 
 	module.exports.app = app
 
@@ -77,7 +77,7 @@ parse
 		req.on 'end', ->
 			next()
 
-#### jwqtDeny
+#### jwtDeny
 
 	_jwtDeny = (res, extra) ->
 		res.status(403).send 'Invalid X-JWT-Signature ' + (if extra then '- ' + extra else '')
@@ -125,7 +125,7 @@ jsonwebtoken doesn't catch parse errors by itself.
 		else
 			next()
 
-#### setCors
+#### setCORS
 
 	setCORS = (req, res, next) ->
 		res.header 'Access-Control-Allow-Origin', req.headers.origin
