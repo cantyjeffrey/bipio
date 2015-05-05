@@ -1,4 +1,5 @@
 /nbproject/private/
+logs
 node_modules
 config/default.json
 config/staging.json

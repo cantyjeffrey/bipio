@@ -1,0 +1,3220 @@
+info: WORKER:PID:29455:1430843581384:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29455:1430843581385:Resolvable Interface lo:::1
+info: WORKER:PID:29455:1430843581386:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29455:1430843581386:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29455:1430843581386:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29455:1430843581386:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29455:1430843581386:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29455:1430843581878:POD:email:UP
+info: WORKER:PID:29455:1430843581882:POD:templater:UP
+info: WORKER:PID:29455:1430843581886:POD:flow:UP
+info: WORKER:PID:29455:1430843581889:POD:syndication:UP
+info: WORKER:PID:29455:1430843581892:POD:http:UP
+info: WORKER:PID:29455:1430843582079:POD:time:UP
+info: WORKER:PID:29455:1430843582082:POD:math:UP
+info: WORKER:PID:29455:1430843582086:POD:html:UP
+info: WORKER:PID:29455:1430843582089:POD:crypto:UP
+info: WORKER:PID:29455:1430843582092:POD:soundcloud:UP
+info: WORKER:PID:29455:1430843582096:POD:twilio:UP
+info: WORKER:PID:29455:1430843582113:POD:twitter:UP
+info: WORKER:PID:29455:1430843582466:POD:Registering Cron:syndication:undefined
+info: WORKER:PID:29455:1430843583908:Caught exception: ReferenceError: pkg is not defined
+ReferenceError: pkg is not defined
+  at Object.<anonymous> (/home/alfonso/bipio/src/server.litcoffee:38:20)
+  at Object.<anonymous> (/home/alfonso/bipio/src/server.litcoffee:18:2)
+  at Module._compile (module.js:456:26)
+  at Object.loadFile (/home/alfonso/bipio/node_modules/coffee-script/lib/coffee-script/register.js:16:19)
+  at Module.load (/home/alfonso/bipio/node_modules/coffee-script/lib/coffee-script/register.js:45:36)
+  at Function.Module._load (module.js:312:12)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Object.<anonymous> (/home/alfonso/bipio/src/server.js:3:18)
+  at Module._compile (module.js:456:26)
+  at Object.Module._extensions..js (module.js:474:10)
+  at Module.load (module.js:356:32)
+  at Function.Module._load (module.js:312:12)
+  at Function.Module.runMain (module.js:497:10)
+  at startup (node.js:119:16)
+  at node.js:902:3
+info: WORKER:PID:29455:1430843583921:RABBIT:Connected
+info: WORKER:PID:29455:1430843583947:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29455:1430843583948:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29455:1430843583948:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29455:1430843583952:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29455:1430843583953:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29455:1430843583954:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29455:1430843583954:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29455:1430843583955:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29455:1430843583970:DAO:MONGODB:Connected
+info: WORKER:PID:29672:1430843670014:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29672:1430843670015:Resolvable Interface lo:::1
+info: WORKER:PID:29672:1430843670015:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29672:1430843670015:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29672:1430843670015:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29672:1430843670015:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29672:1430843670016:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29672:1430843670512:POD:email:UP
+info: WORKER:PID:29672:1430843670516:POD:templater:UP
+info: WORKER:PID:29672:1430843670520:POD:flow:UP
+info: WORKER:PID:29672:1430843670523:POD:syndication:UP
+info: WORKER:PID:29672:1430843670527:POD:http:UP
+info: WORKER:PID:29672:1430843670712:POD:time:UP
+info: WORKER:PID:29672:1430843670716:POD:math:UP
+info: WORKER:PID:29672:1430843670719:POD:html:UP
+info: WORKER:PID:29672:1430843670723:POD:crypto:UP
+info: WORKER:PID:29672:1430843670726:POD:soundcloud:UP
+info: WORKER:PID:29672:1430843670730:POD:twilio:UP
+info: WORKER:PID:29672:1430843670748:POD:twitter:UP
+info: WORKER:PID:29672:1430843671104:POD:Registering Cron:syndication:undefined
+info: WORKER:PID:29672:1430843672539:BIPIO:STARTED:Tue May 05 2015 16:34:32 GMT+0000 (UTC)
+info: WORKER:PID:29672:1430843672539:Node v0.10.25
+info: WORKER:PID:29672:1430843672539:Starting 1 fork(s)
+info: WORKER:PID:29672:1430843672600:RABBIT:Connected
+info: WORKER:PID:29672:1430843672644:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29672:1430843672645:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29672:1430843672647:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29672:1430843672652:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29672:1430843672655:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29672:1430843672656:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29672:1430843672657:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29672:1430843672657:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29672:1430843672692:DAO:MONGODB:Connected
+info: WORKER:PID:29672:1430843672692:DAO:Starting OAuth Refresh
+info: WORKER:PID:29678:1430843674314:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29678:1430843674315:Resolvable Interface lo:::1
+info: WORKER:PID:29678:1430843674315:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29678:1430843674316:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29678:1430843674316:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29678:1430843674316:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29678:1430843674316:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29678:1430843674809:POD:email:UP
+info: WORKER:PID:29678:1430843674812:POD:templater:UP
+info: WORKER:PID:29678:1430843674816:POD:flow:UP
+info: WORKER:PID:29678:1430843674819:POD:syndication:UP
+info: WORKER:PID:29678:1430843674823:POD:http:UP
+info: WORKER:PID:29678:1430843675010:POD:time:UP
+info: WORKER:PID:29678:1430843675014:POD:math:UP
+info: WORKER:PID:29678:1430843675017:POD:html:UP
+info: WORKER:PID:29678:1430843675021:POD:crypto:UP
+info: WORKER:PID:29678:1430843675036:POD:soundcloud:UP
+info: WORKER:PID:29678:1430843675039:POD:twilio:UP
+info: WORKER:PID:29678:1430843675056:POD:twitter:UP
+info: WORKER:PID:29678:1430843676806:BIPIO:STARTED:Tue May 05 2015 16:34:36 GMT+0000 (UTC)
+info: WORKER:PID:29678:1430843676811:RABBIT:Connected
+info: WORKER:PID:29678:1430843676834:TLD:UP
+info: WORKER:PID:29678:1430843676841:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29678:1430843676841:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29678:1430843676842:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29678:1430843676846:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29678:1430843676847:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29678:1430843676848:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29678:1430843676848:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29678:1430843676849:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29678:1430843676865:DAO:MONGODB:Connected
+info: WORKER:PID:29678:1430843677012:Listening on :5000 in "development" mode...
+info: WORKER:PID:29778:1430843702970:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29778:1430843702971:Resolvable Interface lo:::1
+info: WORKER:PID:29778:1430843702971:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29778:1430843702971:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29778:1430843702971:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29778:1430843702971:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29778:1430843702971:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29778:1430843703481:POD:email:UP
+info: WORKER:PID:29778:1430843703485:POD:templater:UP
+info: WORKER:PID:29778:1430843703489:POD:flow:UP
+info: WORKER:PID:29778:1430843703492:POD:syndication:UP
+info: WORKER:PID:29778:1430843703496:POD:http:UP
+info: WORKER:PID:29778:1430843703682:POD:time:UP
+info: WORKER:PID:29778:1430843703686:POD:math:UP
+info: WORKER:PID:29778:1430843703689:POD:html:UP
+info: WORKER:PID:29778:1430843703693:POD:crypto:UP
+info: WORKER:PID:29778:1430843703696:POD:soundcloud:UP
+info: WORKER:PID:29778:1430843703700:POD:twilio:UP
+info: WORKER:PID:29778:1430843703717:POD:twitter:UP
+info: WORKER:PID:29778:1430843704061:POD:Registering Cron:syndication:undefined
+info: WORKER:PID:29778:1430843705491:BIPIO:STARTED:Tue May 05 2015 16:35:05 GMT+0000 (UTC)
+info: WORKER:PID:29778:1430843705491:Node v0.10.25
+info: WORKER:PID:29778:1430843705491:Starting 1 fork(s)
+info: WORKER:PID:29778:1430843705550:RABBIT:Connected
+info: WORKER:PID:29778:1430843705596:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29778:1430843705598:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29778:1430843705599:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29778:1430843705605:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29778:1430843705607:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29778:1430843705608:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29778:1430843705610:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29778:1430843705610:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29778:1430843705644:DAO:MONGODB:Connected
+info: WORKER:PID:29778:1430843705645:DAO:Starting OAuth Refresh
+info: WORKER:PID:29786:1430843707286:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29786:1430843707287:Resolvable Interface lo:::1
+info: WORKER:PID:29786:1430843707287:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29786:1430843707288:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29786:1430843707288:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29786:1430843707288:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29786:1430843707288:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29786:1430843707780:POD:email:UP
+info: WORKER:PID:29786:1430843707783:POD:templater:UP
+info: WORKER:PID:29786:1430843707787:POD:flow:UP
+info: WORKER:PID:29786:1430843707790:POD:syndication:UP
+info: WORKER:PID:29786:1430843707794:POD:http:UP
+info: WORKER:PID:29786:1430843707981:POD:time:UP
+info: WORKER:PID:29786:1430843707984:POD:math:UP
+info: WORKER:PID:29786:1430843707989:POD:html:UP
+info: WORKER:PID:29786:1430843707993:POD:crypto:UP
+info: WORKER:PID:29786:1430843707998:POD:soundcloud:UP
+info: WORKER:PID:29786:1430843708003:POD:twilio:UP
+info: WORKER:PID:29786:1430843708041:POD:twitter:UP
+info: WORKER:PID:29786:1430843710477:BIPIO:STARTED:Tue May 05 2015 16:35:10 GMT+0000 (UTC)
+info: WORKER:PID:29786:1430843710486:RABBIT:Connected
+info: WORKER:PID:29786:1430843710507:TLD:UP
+info: WORKER:PID:29786:1430843710520:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29786:1430843710521:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29786:1430843710521:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29786:1430843710528:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29786:1430843710530:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29786:1430843710530:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29786:1430843710531:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29786:1430843710532:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29786:1430843710547:DAO:MONGODB:Connected
+info: WORKER:PID:29786:1430843710731:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.1:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843710762:Worker:1:Disconnect
+info: WORKER:PID:29803:1430843712978:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29803:1430843712978:Resolvable Interface lo:::1
+info: WORKER:PID:29803:1430843712978:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29803:1430843712978:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29803:1430843712979:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29803:1430843712979:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29803:1430843712979:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29803:1430843713616:POD:email:UP
+info: WORKER:PID:29803:1430843713621:POD:templater:UP
+info: WORKER:PID:29803:1430843713626:POD:flow:UP
+info: WORKER:PID:29803:1430843713630:POD:syndication:UP
+info: WORKER:PID:29803:1430843713634:POD:http:UP
+info: WORKER:PID:29803:1430843713823:POD:time:UP
+info: WORKER:PID:29803:1430843713828:POD:math:UP
+info: WORKER:PID:29803:1430843713833:POD:html:UP
+info: WORKER:PID:29803:1430843713838:POD:crypto:UP
+info: WORKER:PID:29803:1430843713852:POD:soundcloud:UP
+info: WORKER:PID:29803:1430843713857:POD:twilio:UP
+info: WORKER:PID:29803:1430843713891:POD:twitter:UP
+info: WORKER:PID:29803:1430843716207:BIPIO:STARTED:Tue May 05 2015 16:35:16 GMT+0000 (UTC)
+info: WORKER:PID:29803:1430843716215:RABBIT:Connected
+info: WORKER:PID:29803:1430843716239:TLD:UP
+info: WORKER:PID:29803:1430843716247:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29803:1430843716247:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29803:1430843716248:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29803:1430843716251:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29803:1430843716253:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29803:1430843716253:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29803:1430843716254:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29803:1430843716254:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29803:1430843716271:DAO:MONGODB:Connected
+info: WORKER:PID:29803:1430843716476:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.2:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843716504:Worker:2:Disconnect
+info: WORKER:PID:29817:1430843718661:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29817:1430843718662:Resolvable Interface lo:::1
+info: WORKER:PID:29817:1430843718662:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29817:1430843718662:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29817:1430843718662:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29817:1430843718662:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29817:1430843718662:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29817:1430843719333:POD:email:UP
+info: WORKER:PID:29817:1430843719345:POD:templater:UP
+info: WORKER:PID:29817:1430843719353:POD:flow:UP
+info: WORKER:PID:29817:1430843719366:POD:syndication:UP
+info: WORKER:PID:29817:1430843719379:POD:http:UP
+info: WORKER:PID:29817:1430843719770:POD:time:UP
+info: WORKER:PID:29817:1430843719779:POD:math:UP
+info: WORKER:PID:29817:1430843719786:POD:html:UP
+info: WORKER:PID:29817:1430843719798:POD:crypto:UP
+info: WORKER:PID:29817:1430843719834:POD:soundcloud:UP
+info: WORKER:PID:29817:1430843719841:POD:twilio:UP
+info: WORKER:PID:29817:1430843719893:POD:twitter:UP
+info: WORKER:PID:29817:1430843722432:BIPIO:STARTED:Tue May 05 2015 16:35:22 GMT+0000 (UTC)
+info: WORKER:PID:29817:1430843722443:RABBIT:Connected
+info: WORKER:PID:29817:1430843722467:TLD:UP
+info: WORKER:PID:29817:1430843722478:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29817:1430843722479:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29817:1430843722480:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29817:1430843722487:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29817:1430843722488:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29817:1430843722489:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29817:1430843722489:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29817:1430843722490:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29817:1430843722513:DAO:MONGODB:Connected
+info: WORKER:PID:29817:1430843722703:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.3:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843722727:Worker:3:Disconnect
+info: WORKER:PID:29853:1430843724953:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29853:1430843724954:Resolvable Interface lo:::1
+info: WORKER:PID:29853:1430843724954:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29853:1430843724954:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29853:1430843724954:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29853:1430843724954:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29853:1430843724954:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29853:1430843725592:POD:email:UP
+info: WORKER:PID:29853:1430843725597:POD:templater:UP
+info: WORKER:PID:29853:1430843725601:POD:flow:UP
+info: WORKER:PID:29853:1430843725607:POD:syndication:UP
+info: WORKER:PID:29853:1430843725611:POD:http:UP
+info: WORKER:PID:29853:1430843725803:POD:time:UP
+info: WORKER:PID:29853:1430843725807:POD:math:UP
+info: WORKER:PID:29853:1430843725812:POD:html:UP
+info: WORKER:PID:29853:1430843725818:POD:crypto:UP
+info: WORKER:PID:29853:1430843725834:POD:soundcloud:UP
+info: WORKER:PID:29853:1430843725839:POD:twilio:UP
+info: WORKER:PID:29853:1430843725867:POD:twitter:UP
+info: WORKER:PID:29853:1430843728165:BIPIO:STARTED:Tue May 05 2015 16:35:28 GMT+0000 (UTC)
+info: WORKER:PID:29853:1430843728174:RABBIT:Connected
+info: WORKER:PID:29853:1430843728195:TLD:UP
+info: WORKER:PID:29853:1430843728208:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29853:1430843728209:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29853:1430843728210:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29853:1430843728217:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29853:1430843728218:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29853:1430843728219:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29853:1430843728220:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29853:1430843728220:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29853:1430843728235:DAO:MONGODB:Connected
+info: WORKER:PID:29853:1430843728425:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.4:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843728451:Worker:4:Disconnect
+info: WORKER:PID:29867:1430843730578:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29867:1430843730579:Resolvable Interface lo:::1
+info: WORKER:PID:29867:1430843730579:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29867:1430843730579:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29867:1430843730579:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29867:1430843730579:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29867:1430843730579:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29867:1430843731207:POD:email:UP
+info: WORKER:PID:29867:1430843731212:POD:templater:UP
+info: WORKER:PID:29867:1430843731216:POD:flow:UP
+info: WORKER:PID:29867:1430843731221:POD:syndication:UP
+info: WORKER:PID:29867:1430843731225:POD:http:UP
+info: WORKER:PID:29867:1430843731440:POD:time:UP
+info: WORKER:PID:29867:1430843731446:POD:math:UP
+info: WORKER:PID:29867:1430843731453:POD:html:UP
+info: WORKER:PID:29867:1430843731459:POD:crypto:UP
+info: WORKER:PID:29867:1430843731481:POD:soundcloud:UP
+info: WORKER:PID:29867:1430843731485:POD:twilio:UP
+info: WORKER:PID:29867:1430843731511:POD:twitter:UP
+info: WORKER:PID:29867:1430843733906:BIPIO:STARTED:Tue May 05 2015 16:35:33 GMT+0000 (UTC)
+info: WORKER:PID:29867:1430843733922:RABBIT:Connected
+info: WORKER:PID:29867:1430843733942:TLD:UP
+info: WORKER:PID:29867:1430843733955:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29867:1430843733956:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29867:1430843733957:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29867:1430843733963:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29867:1430843733965:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29867:1430843733966:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29867:1430843733966:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29867:1430843733969:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29867:1430843733982:DAO:MONGODB:Connected
+info: WORKER:PID:29867:1430843734165:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.5:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843734197:Worker:5:Disconnect
+info: WORKER:PID:29881:1430843736370:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29881:1430843736371:Resolvable Interface lo:::1
+info: WORKER:PID:29881:1430843736371:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29881:1430843736371:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29881:1430843736371:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29881:1430843736371:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29881:1430843736371:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29881:1430843736984:POD:email:UP
+info: WORKER:PID:29881:1430843736989:POD:templater:UP
+info: WORKER:PID:29881:1430843736994:POD:flow:UP
+info: WORKER:PID:29881:1430843736998:POD:syndication:UP
+info: WORKER:PID:29881:1430843737002:POD:http:UP
+info: WORKER:PID:29881:1430843737193:POD:time:UP
+info: WORKER:PID:29881:1430843737198:POD:math:UP
+info: WORKER:PID:29881:1430843737203:POD:html:UP
+info: WORKER:PID:29881:1430843737209:POD:crypto:UP
+info: WORKER:PID:29881:1430843737214:POD:soundcloud:UP
+info: WORKER:PID:29881:1430843737219:POD:twilio:UP
+info: WORKER:PID:29881:1430843737258:POD:twitter:UP
+info: WORKER:PID:29881:1430843739553:BIPIO:STARTED:Tue May 05 2015 16:35:39 GMT+0000 (UTC)
+info: WORKER:PID:29881:1430843739561:RABBIT:Connected
+info: WORKER:PID:29881:1430843739583:TLD:UP
+info: WORKER:PID:29881:1430843739596:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29881:1430843739597:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29881:1430843739598:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29881:1430843739607:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29881:1430843739608:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29881:1430843739609:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29881:1430843739610:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29881:1430843739610:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29881:1430843739623:DAO:MONGODB:Connected
+info: WORKER:PID:29881:1430843739819:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.6:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843739846:Worker:6:Disconnect
+info: WORKER:PID:29893:1430843742027:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29893:1430843742027:Resolvable Interface lo:::1
+info: WORKER:PID:29893:1430843742028:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29893:1430843742028:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29893:1430843742028:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29893:1430843742028:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29893:1430843742028:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29893:1430843742663:POD:email:UP
+info: WORKER:PID:29893:1430843742668:POD:templater:UP
+info: WORKER:PID:29893:1430843742673:POD:flow:UP
+info: WORKER:PID:29893:1430843742678:POD:syndication:UP
+info: WORKER:PID:29893:1430843742682:POD:http:UP
+info: WORKER:PID:29893:1430843742871:POD:time:UP
+info: WORKER:PID:29893:1430843742875:POD:math:UP
+info: WORKER:PID:29893:1430843742880:POD:html:UP
+info: WORKER:PID:29893:1430843742884:POD:crypto:UP
+info: WORKER:PID:29893:1430843742899:POD:soundcloud:UP
+info: WORKER:PID:29893:1430843742904:POD:twilio:UP
+info: WORKER:PID:29893:1430843742939:POD:twitter:UP
+info: WORKER:PID:29893:1430843745285:BIPIO:STARTED:Tue May 05 2015 16:35:45 GMT+0000 (UTC)
+info: WORKER:PID:29893:1430843745300:RABBIT:Connected
+info: WORKER:PID:29893:1430843745322:TLD:UP
+info: WORKER:PID:29893:1430843745334:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29893:1430843745335:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29893:1430843745336:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29893:1430843745345:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29893:1430843745349:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29893:1430843745350:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29893:1430843745351:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29893:1430843745351:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29893:1430843745364:DAO:MONGODB:Connected
+info: WORKER:PID:29893:1430843745545:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.7:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843745577:Worker:7:Disconnect
+info: WORKER:PID:29906:1430843747822:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29906:1430843747822:Resolvable Interface lo:::1
+info: WORKER:PID:29906:1430843747823:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29906:1430843747823:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29906:1430843747823:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29906:1430843747823:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29906:1430843747823:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29906:1430843748468:POD:email:UP
+info: WORKER:PID:29906:1430843748473:POD:templater:UP
+info: WORKER:PID:29906:1430843748477:POD:flow:UP
+info: WORKER:PID:29906:1430843748482:POD:syndication:UP
+info: WORKER:PID:29906:1430843748486:POD:http:UP
+info: WORKER:PID:29906:1430843748682:POD:time:UP
+info: WORKER:PID:29906:1430843748686:POD:math:UP
+info: WORKER:PID:29906:1430843748691:POD:html:UP
+info: WORKER:PID:29906:1430843748696:POD:crypto:UP
+info: WORKER:PID:29906:1430843748711:POD:soundcloud:UP
+info: WORKER:PID:29906:1430843748715:POD:twilio:UP
+info: WORKER:PID:29906:1430843748743:POD:twitter:UP
+info: WORKER:PID:29906:1430843751410:BIPIO:STARTED:Tue May 05 2015 16:35:51 GMT+0000 (UTC)
+info: WORKER:PID:29906:1430843751423:RABBIT:Connected
+info: WORKER:PID:29906:1430843751442:TLD:UP
+info: WORKER:PID:29906:1430843751454:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29906:1430843751455:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29906:1430843751455:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29906:1430843751459:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29906:1430843751461:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29906:1430843751461:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29906:1430843751462:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29906:1430843751462:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29906:1430843751490:DAO:MONGODB:Connected
+info: WORKER:PID:29906:1430843751668:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.8:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843751695:Worker:8:Disconnect
+info: WORKER:PID:29942:1430843753930:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:29942:1430843753931:Resolvable Interface lo:::1
+info: WORKER:PID:29942:1430843753931:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:29942:1430843753931:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:29942:1430843753931:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:29942:1430843753931:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:29942:1430843753931:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:29942:1430843754623:POD:email:UP
+info: WORKER:PID:29942:1430843754632:POD:templater:UP
+info: WORKER:PID:29942:1430843754643:POD:flow:UP
+info: WORKER:PID:29942:1430843754652:POD:syndication:UP
+info: WORKER:PID:29942:1430843754661:POD:http:UP
+info: WORKER:PID:29942:1430843754935:POD:time:UP
+info: WORKER:PID:29942:1430843754941:POD:math:UP
+info: WORKER:PID:29942:1430843754948:POD:html:UP
+info: WORKER:PID:29942:1430843754953:POD:crypto:UP
+info: WORKER:PID:29942:1430843754970:POD:soundcloud:UP
+info: WORKER:PID:29942:1430843754977:POD:twilio:UP
+info: WORKER:PID:29942:1430843755012:POD:twitter:UP
+info: WORKER:PID:29942:1430843757469:BIPIO:STARTED:Tue May 05 2015 16:35:57 GMT+0000 (UTC)
+info: WORKER:PID:29942:1430843757481:RABBIT:Connected
+info: WORKER:PID:29942:1430843757501:TLD:UP
+info: WORKER:PID:29942:1430843757515:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:29942:1430843757516:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:29942:1430843757517:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:29942:1430843757520:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:29942:1430843757521:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:29942:1430843757522:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:29942:1430843757523:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:29942:1430843757523:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29942:1430843757536:DAO:MONGODB:Connected
+info: WORKER:PID:29942:1430843757715:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.9:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843757743:Worker:9:Disconnect
+info: WORKER:PID:30015:1430843760022:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30015:1430843760023:Resolvable Interface lo:::1
+info: WORKER:PID:30015:1430843760023:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30015:1430843760023:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30015:1430843760023:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30015:1430843760023:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30015:1430843760023:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30015:1430843760689:POD:email:UP
+info: WORKER:PID:30015:1430843760694:POD:templater:UP
+info: WORKER:PID:30015:1430843760700:POD:flow:UP
+info: WORKER:PID:30015:1430843760705:POD:syndication:UP
+info: WORKER:PID:30015:1430843760710:POD:http:UP
+info: WORKER:PID:30015:1430843760903:POD:time:UP
+info: WORKER:PID:30015:1430843760909:POD:math:UP
+info: WORKER:PID:30015:1430843760914:POD:html:UP
+info: WORKER:PID:30015:1430843760919:POD:crypto:UP
+info: WORKER:PID:30015:1430843760937:POD:soundcloud:UP
+info: WORKER:PID:30015:1430843760943:POD:twilio:UP
+info: WORKER:PID:30015:1430843760978:POD:twitter:UP
+info: WORKER:PID:30015:1430843763313:BIPIO:STARTED:Tue May 05 2015 16:36:03 GMT+0000 (UTC)
+info: WORKER:PID:30015:1430843763324:RABBIT:Connected
+info: WORKER:PID:30015:1430843763346:TLD:UP
+info: WORKER:PID:30015:1430843763359:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30015:1430843763360:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30015:1430843763361:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30015:1430843763368:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30015:1430843763369:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30015:1430843763370:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30015:1430843763370:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30015:1430843763371:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30015:1430843763387:DAO:MONGODB:Connected
+info: WORKER:PID:30015:1430843763565:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.10:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843763592:Worker:10:Disconnect
+info: WORKER:PID:30029:1430843765791:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30029:1430843765792:Resolvable Interface lo:::1
+info: WORKER:PID:30029:1430843765792:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30029:1430843765792:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30029:1430843765793:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30029:1430843765793:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30029:1430843765793:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30029:1430843766451:POD:email:UP
+info: WORKER:PID:30029:1430843766456:POD:templater:UP
+info: WORKER:PID:30029:1430843766460:POD:flow:UP
+info: WORKER:PID:30029:1430843766465:POD:syndication:UP
+info: WORKER:PID:30029:1430843766470:POD:http:UP
+info: WORKER:PID:30029:1430843766657:POD:time:UP
+info: WORKER:PID:30029:1430843766662:POD:math:UP
+info: WORKER:PID:30029:1430843766666:POD:html:UP
+info: WORKER:PID:30029:1430843766670:POD:crypto:UP
+info: WORKER:PID:30029:1430843766686:POD:soundcloud:UP
+info: WORKER:PID:30029:1430843766690:POD:twilio:UP
+info: WORKER:PID:30029:1430843766716:POD:twitter:UP
+info: WORKER:PID:30029:1430843769073:BIPIO:STARTED:Tue May 05 2015 16:36:09 GMT+0000 (UTC)
+info: WORKER:PID:30029:1430843769086:RABBIT:Connected
+info: WORKER:PID:30029:1430843769111:TLD:UP
+info: WORKER:PID:30029:1430843769126:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30029:1430843769127:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30029:1430843769127:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30029:1430843769134:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30029:1430843769136:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30029:1430843769136:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30029:1430843769137:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30029:1430843769138:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30029:1430843769157:DAO:MONGODB:Connected
+info: WORKER:PID:30029:1430843769344:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.11:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843769376:Worker:11:Disconnect
+info: WORKER:PID:30041:1430843771641:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30041:1430843771642:Resolvable Interface lo:::1
+info: WORKER:PID:30041:1430843771642:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30041:1430843771642:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30041:1430843771642:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30041:1430843771642:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30041:1430843771642:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30041:1430843772300:POD:email:UP
+info: WORKER:PID:30041:1430843772306:POD:templater:UP
+info: WORKER:PID:30041:1430843772312:POD:flow:UP
+info: WORKER:PID:30041:1430843772317:POD:syndication:UP
+info: WORKER:PID:30041:1430843772322:POD:http:UP
+info: WORKER:PID:30041:1430843772526:POD:time:UP
+info: WORKER:PID:30041:1430843772531:POD:math:UP
+info: WORKER:PID:30041:1430843772536:POD:html:UP
+info: WORKER:PID:30041:1430843772541:POD:crypto:UP
+info: WORKER:PID:30041:1430843772558:POD:soundcloud:UP
+info: WORKER:PID:30041:1430843772564:POD:twilio:UP
+info: WORKER:PID:30041:1430843772597:POD:twitter:UP
+info: WORKER:PID:30041:1430843775039:BIPIO:STARTED:Tue May 05 2015 16:36:15 GMT+0000 (UTC)
+info: WORKER:PID:30041:1430843775049:RABBIT:Connected
+info: WORKER:PID:30041:1430843775067:TLD:UP
+info: WORKER:PID:30041:1430843775079:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30041:1430843775080:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30041:1430843775081:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30041:1430843775090:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30041:1430843775091:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30041:1430843775093:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30041:1430843775093:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30041:1430843775094:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30041:1430843775109:DAO:MONGODB:Connected
+info: WORKER:PID:30041:1430843775290:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.12:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843775317:Worker:12:Disconnect
+info: WORKER:PID:30055:1430843777531:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30055:1430843777532:Resolvable Interface lo:::1
+info: WORKER:PID:30055:1430843777532:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30055:1430843777532:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30055:1430843777532:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30055:1430843777532:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30055:1430843777532:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30055:1430843778181:POD:email:UP
+info: WORKER:PID:30055:1430843778186:POD:templater:UP
+info: WORKER:PID:30055:1430843778192:POD:flow:UP
+info: WORKER:PID:30055:1430843778197:POD:syndication:UP
+info: WORKER:PID:30055:1430843778203:POD:http:UP
+info: WORKER:PID:30055:1430843778399:POD:time:UP
+info: WORKER:PID:30055:1430843778405:POD:math:UP
+info: WORKER:PID:30055:1430843778410:POD:html:UP
+info: WORKER:PID:30055:1430843778415:POD:crypto:UP
+info: WORKER:PID:30055:1430843778431:POD:soundcloud:UP
+info: WORKER:PID:30055:1430843778437:POD:twilio:UP
+info: WORKER:PID:30055:1430843778466:POD:twitter:UP
+info: WORKER:PID:30055:1430843781097:BIPIO:STARTED:Tue May 05 2015 16:36:21 GMT+0000 (UTC)
+info: WORKER:PID:30055:1430843781107:RABBIT:Connected
+info: WORKER:PID:30055:1430843781126:TLD:UP
+info: WORKER:PID:30055:1430843781139:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30055:1430843781140:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30055:1430843781141:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30055:1430843781148:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30055:1430843781149:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30055:1430843781150:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30055:1430843781151:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30055:1430843781151:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30055:1430843781170:DAO:MONGODB:Connected
+info: WORKER:PID:30055:1430843781352:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.13:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843781380:Worker:13:Disconnect
+info: WORKER:PID:30091:1430843783623:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30091:1430843783624:Resolvable Interface lo:::1
+info: WORKER:PID:30091:1430843783624:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30091:1430843783624:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30091:1430843783624:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30091:1430843783624:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30091:1430843783624:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30091:1430843784285:POD:email:UP
+info: WORKER:PID:30091:1430843784290:POD:templater:UP
+info: WORKER:PID:30091:1430843784296:POD:flow:UP
+info: WORKER:PID:30091:1430843784301:POD:syndication:UP
+info: WORKER:PID:30091:1430843784305:POD:http:UP
+info: WORKER:PID:30091:1430843784515:POD:time:UP
+info: WORKER:PID:30091:1430843784520:POD:math:UP
+info: WORKER:PID:30091:1430843784524:POD:html:UP
+info: WORKER:PID:30091:1430843784529:POD:crypto:UP
+info: WORKER:PID:30091:1430843784544:POD:soundcloud:UP
+info: WORKER:PID:30091:1430843784549:POD:twilio:UP
+info: WORKER:PID:30091:1430843784574:POD:twitter:UP
+info: WORKER:PID:30091:1430843786920:BIPIO:STARTED:Tue May 05 2015 16:36:26 GMT+0000 (UTC)
+info: WORKER:PID:30091:1430843786931:RABBIT:Connected
+info: WORKER:PID:30091:1430843786952:TLD:UP
+info: WORKER:PID:30091:1430843786959:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30091:1430843786960:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30091:1430843786961:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30091:1430843786964:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30091:1430843786965:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30091:1430843786966:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30091:1430843786966:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30091:1430843786967:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30091:1430843786984:DAO:MONGODB:Connected
+info: WORKER:PID:30091:1430843787184:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.14:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843787209:Worker:14:Disconnect
+info: WORKER:PID:30105:1430843789386:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30105:1430843789387:Resolvable Interface lo:::1
+info: WORKER:PID:30105:1430843789387:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30105:1430843789387:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30105:1430843789387:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30105:1430843789387:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30105:1430843789387:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30105:1430843790022:POD:email:UP
+info: WORKER:PID:30105:1430843790027:POD:templater:UP
+info: WORKER:PID:30105:1430843790032:POD:flow:UP
+info: WORKER:PID:30105:1430843790036:POD:syndication:UP
+info: WORKER:PID:30105:1430843790040:POD:http:UP
+info: WORKER:PID:30105:1430843790235:POD:time:UP
+info: WORKER:PID:30105:1430843790240:POD:math:UP
+info: WORKER:PID:30105:1430843790245:POD:html:UP
+info: WORKER:PID:30105:1430843790249:POD:crypto:UP
+info: WORKER:PID:30105:1430843790254:POD:soundcloud:UP
+info: WORKER:PID:30105:1430843790258:POD:twilio:UP
+info: WORKER:PID:30105:1430843790298:POD:twitter:UP
+info: WORKER:PID:30105:1430843792738:BIPIO:STARTED:Tue May 05 2015 16:36:32 GMT+0000 (UTC)
+info: WORKER:PID:30105:1430843792748:RABBIT:Connected
+info: WORKER:PID:30105:1430843792768:TLD:UP
+info: WORKER:PID:30105:1430843792782:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30105:1430843792783:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30105:1430843792784:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30105:1430843792791:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30105:1430843792792:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30105:1430843792795:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30105:1430843792795:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30105:1430843792796:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30105:1430843792810:DAO:MONGODB:Connected
+info: WORKER:PID:30105:1430843792997:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.15:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843793025:Worker:15:Disconnect
+info: WORKER:PID:30117:1430843795353:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30117:1430843795354:Resolvable Interface lo:::1
+info: WORKER:PID:30117:1430843795354:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30117:1430843795354:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30117:1430843795354:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30117:1430843795354:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30117:1430843795354:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30117:1430843796001:POD:email:UP
+info: WORKER:PID:30117:1430843796006:POD:templater:UP
+info: WORKER:PID:30117:1430843796010:POD:flow:UP
+info: WORKER:PID:30117:1430843796015:POD:syndication:UP
+info: WORKER:PID:30117:1430843796019:POD:http:UP
+info: WORKER:PID:30117:1430843796211:POD:time:UP
+info: WORKER:PID:30117:1430843796216:POD:math:UP
+info: WORKER:PID:30117:1430843796222:POD:html:UP
+info: WORKER:PID:30117:1430843796227:POD:crypto:UP
+info: WORKER:PID:30117:1430843796232:POD:soundcloud:UP
+info: WORKER:PID:30117:1430843796237:POD:twilio:UP
+info: WORKER:PID:30117:1430843796276:POD:twitter:UP
+info: WORKER:PID:30117:1430843798751:BIPIO:STARTED:Tue May 05 2015 16:36:38 GMT+0000 (UTC)
+info: WORKER:PID:30117:1430843798763:RABBIT:Connected
+info: WORKER:PID:30117:1430843798782:TLD:UP
+info: WORKER:PID:30117:1430843798802:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30117:1430843798804:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30117:1430843798805:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30117:1430843798821:DAO:MONGODB:Connected
+info: WORKER:PID:30117:1430843798986:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30117:1430843798988:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30117:1430843798989:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30117:1430843798989:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30117:1430843798990:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30117:1430843799010:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.16:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843799041:Worker:16:Disconnect
+info: WORKER:PID:30131:1430843801504:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30131:1430843801505:Resolvable Interface lo:::1
+info: WORKER:PID:30131:1430843801505:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30131:1430843801505:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30131:1430843801506:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30131:1430843801506:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30131:1430843801506:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30131:1430843802114:POD:email:UP
+info: WORKER:PID:30131:1430843802119:POD:templater:UP
+info: WORKER:PID:30131:1430843802124:POD:flow:UP
+info: WORKER:PID:30131:1430843802129:POD:syndication:UP
+info: WORKER:PID:30131:1430843802133:POD:http:UP
+info: WORKER:PID:30131:1430843802324:POD:time:UP
+info: WORKER:PID:30131:1430843802329:POD:math:UP
+info: WORKER:PID:30131:1430843802333:POD:html:UP
+info: WORKER:PID:30131:1430843802337:POD:crypto:UP
+info: WORKER:PID:30131:1430843802342:POD:soundcloud:UP
+info: WORKER:PID:30131:1430843802346:POD:twilio:UP
+info: WORKER:PID:30131:1430843802386:POD:twitter:UP
+info: WORKER:PID:30131:1430843804746:BIPIO:STARTED:Tue May 05 2015 16:36:44 GMT+0000 (UTC)
+info: WORKER:PID:30131:1430843804758:RABBIT:Connected
+info: WORKER:PID:30131:1430843804777:TLD:UP
+info: WORKER:PID:30131:1430843804789:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30131:1430843804790:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30131:1430843804791:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30131:1430843804798:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30131:1430843804800:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30131:1430843804801:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30131:1430843804801:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30131:1430843804802:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30131:1430843804818:DAO:MONGODB:Connected
+info: WORKER:PID:30131:1430843804999:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.17:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843805028:Worker:17:Disconnect
+info: WORKER:PID:30145:1430843807239:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30145:1430843807240:Resolvable Interface lo:::1
+info: WORKER:PID:30145:1430843807240:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30145:1430843807240:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30145:1430843807240:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30145:1430843807240:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30145:1430843807240:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30145:1430843807882:POD:email:UP
+info: WORKER:PID:30145:1430843807887:POD:templater:UP
+info: WORKER:PID:30145:1430843807892:POD:flow:UP
+info: WORKER:PID:30145:1430843807896:POD:syndication:UP
+info: WORKER:PID:30145:1430843807900:POD:http:UP
+info: WORKER:PID:30145:1430843808090:POD:time:UP
+info: WORKER:PID:30145:1430843808094:POD:math:UP
+info: WORKER:PID:30145:1430843808099:POD:html:UP
+info: WORKER:PID:30145:1430843808103:POD:crypto:UP
+info: WORKER:PID:30145:1430843808107:POD:soundcloud:UP
+info: WORKER:PID:30145:1430843808111:POD:twilio:UP
+info: WORKER:PID:30145:1430843808149:POD:twitter:UP
+info: WORKER:PID:30145:1430843810909:BIPIO:STARTED:Tue May 05 2015 16:36:50 GMT+0000 (UTC)
+info: WORKER:PID:30145:1430843810922:RABBIT:Connected
+info: WORKER:PID:30145:1430843810941:TLD:UP
+info: WORKER:PID:30145:1430843810953:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30145:1430843810953:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30145:1430843810954:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30145:1430843810961:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30145:1430843810963:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30145:1430843810965:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30145:1430843810966:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30145:1430843810966:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30145:1430843810981:DAO:MONGODB:Connected
+info: WORKER:PID:30145:1430843811172:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.18:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843811199:Worker:18:Disconnect
+info: WORKER:PID:30181:1430843813398:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30181:1430843813399:Resolvable Interface lo:::1
+info: WORKER:PID:30181:1430843813399:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30181:1430843813399:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30181:1430843813399:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30181:1430843813399:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30181:1430843813399:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30181:1430843814047:POD:email:UP
+info: WORKER:PID:30181:1430843814053:POD:templater:UP
+info: WORKER:PID:30181:1430843814058:POD:flow:UP
+info: WORKER:PID:30181:1430843814063:POD:syndication:UP
+info: WORKER:PID:30181:1430843814068:POD:http:UP
+info: WORKER:PID:30181:1430843814277:POD:time:UP
+info: WORKER:PID:30181:1430843814282:POD:math:UP
+info: WORKER:PID:30181:1430843814287:POD:html:UP
+info: WORKER:PID:30181:1430843814292:POD:crypto:UP
+info: WORKER:PID:30181:1430843814297:POD:soundcloud:UP
+info: WORKER:PID:30181:1430843814303:POD:twilio:UP
+info: WORKER:PID:30181:1430843814349:POD:twitter:UP
+info: WORKER:PID:30181:1430843816927:BIPIO:STARTED:Tue May 05 2015 16:36:56 GMT+0000 (UTC)
+info: WORKER:PID:30181:1430843816937:RABBIT:Connected
+info: WORKER:PID:30181:1430843816963:TLD:UP
+info: WORKER:PID:30181:1430843816970:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30181:1430843816971:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30181:1430843816972:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30181:1430843816978:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30181:1430843816979:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30181:1430843816980:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30181:1430843816981:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30181:1430843816982:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30181:1430843816996:DAO:MONGODB:Connected
+info: WORKER:PID:30181:1430843817174:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.19:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843817200:Worker:19:Disconnect
+info: WORKER:PID:30241:1430843819424:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30241:1430843819425:Resolvable Interface lo:::1
+info: WORKER:PID:30241:1430843819425:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30241:1430843819425:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30241:1430843819425:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30241:1430843819425:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30241:1430843819425:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30241:1430843820076:POD:email:UP
+info: WORKER:PID:30241:1430843820083:POD:templater:UP
+info: WORKER:PID:30241:1430843820088:POD:flow:UP
+info: WORKER:PID:30241:1430843820093:POD:syndication:UP
+info: WORKER:PID:30241:1430843820097:POD:http:UP
+info: WORKER:PID:30241:1430843820289:POD:time:UP
+info: WORKER:PID:30241:1430843820294:POD:math:UP
+info: WORKER:PID:30241:1430843820299:POD:html:UP
+info: WORKER:PID:30241:1430843820304:POD:crypto:UP
+info: WORKER:PID:30241:1430843820320:POD:soundcloud:UP
+info: WORKER:PID:30241:1430843820325:POD:twilio:UP
+info: WORKER:PID:30241:1430843820353:POD:twitter:UP
+info: WORKER:PID:30241:1430843822843:BIPIO:STARTED:Tue May 05 2015 16:37:02 GMT+0000 (UTC)
+info: WORKER:PID:30241:1430843822858:RABBIT:Connected
+info: WORKER:PID:30241:1430843822877:TLD:UP
+info: WORKER:PID:30241:1430843822889:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30241:1430843822890:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30241:1430843822891:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30241:1430843822897:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30241:1430843822898:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30241:1430843822899:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30241:1430843822900:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30241:1430843822900:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30241:1430843822916:DAO:MONGODB:Connected
+info: WORKER:PID:30241:1430843823109:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.20:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843823141:Worker:20:Disconnect
+info: WORKER:PID:30253:1430843825387:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30253:1430843825388:Resolvable Interface lo:::1
+info: WORKER:PID:30253:1430843825388:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30253:1430843825388:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30253:1430843825388:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30253:1430843825388:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30253:1430843825388:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30253:1430843826010:POD:email:UP
+info: WORKER:PID:30253:1430843826014:POD:templater:UP
+info: WORKER:PID:30253:1430843826019:POD:flow:UP
+info: WORKER:PID:30253:1430843826023:POD:syndication:UP
+info: WORKER:PID:30253:1430843826027:POD:http:UP
+info: WORKER:PID:30253:1430843826218:POD:time:UP
+info: WORKER:PID:30253:1430843826222:POD:math:UP
+info: WORKER:PID:30253:1430843826227:POD:html:UP
+info: WORKER:PID:30253:1430843826231:POD:crypto:UP
+info: WORKER:PID:30253:1430843826246:POD:soundcloud:UP
+info: WORKER:PID:30253:1430843826251:POD:twilio:UP
+info: WORKER:PID:30253:1430843826278:POD:twitter:UP
+info: WORKER:PID:30253:1430843828599:BIPIO:STARTED:Tue May 05 2015 16:37:08 GMT+0000 (UTC)
+info: WORKER:PID:30253:1430843828610:RABBIT:Connected
+info: WORKER:PID:30253:1430843828633:TLD:UP
+info: WORKER:PID:30253:1430843828641:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30253:1430843828642:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30253:1430843828642:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30253:1430843828646:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30253:1430843828647:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30253:1430843828649:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30253:1430843828649:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30253:1430843828650:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30253:1430843828668:DAO:MONGODB:Connected
+info: WORKER:PID:30253:1430843828849:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.21:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843828878:Worker:21:Disconnect
+info: WORKER:PID:30267:1430843831115:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30267:1430843831116:Resolvable Interface lo:::1
+info: WORKER:PID:30267:1430843831116:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30267:1430843831116:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30267:1430843831116:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30267:1430843831117:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30267:1430843831117:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30267:1430843831717:POD:email:UP
+info: WORKER:PID:30267:1430843831722:POD:templater:UP
+info: WORKER:PID:30267:1430843831726:POD:flow:UP
+info: WORKER:PID:30267:1430843831731:POD:syndication:UP
+info: WORKER:PID:30267:1430843831735:POD:http:UP
+info: WORKER:PID:30267:1430843831922:POD:time:UP
+info: WORKER:PID:30267:1430843831927:POD:math:UP
+info: WORKER:PID:30267:1430843831931:POD:html:UP
+info: WORKER:PID:30267:1430843831936:POD:crypto:UP
+info: WORKER:PID:30267:1430843831951:POD:soundcloud:UP
+info: WORKER:PID:30267:1430843831955:POD:twilio:UP
+info: WORKER:PID:30267:1430843831982:POD:twitter:UP
+info: WORKER:PID:30267:1430843834324:BIPIO:STARTED:Tue May 05 2015 16:37:14 GMT+0000 (UTC)
+info: WORKER:PID:30267:1430843834334:RABBIT:Connected
+info: WORKER:PID:30267:1430843834358:TLD:UP
+info: WORKER:PID:30267:1430843834365:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30267:1430843834366:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30267:1430843834367:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30267:1430843834371:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30267:1430843834372:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30267:1430843834374:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30267:1430843834374:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30267:1430843834375:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30267:1430843834396:DAO:MONGODB:Connected
+info: WORKER:PID:30267:1430843834579:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.22:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843834611:Worker:22:Disconnect
+info: WORKER:PID:30281:1430843836831:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30281:1430843836832:Resolvable Interface lo:::1
+info: WORKER:PID:30281:1430843836832:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30281:1430843836832:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30281:1430843836832:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30281:1430843836832:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30281:1430843836832:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30281:1430843837437:POD:email:UP
+info: WORKER:PID:30281:1430843837441:POD:templater:UP
+info: WORKER:PID:30281:1430843837446:POD:flow:UP
+info: WORKER:PID:30281:1430843837450:POD:syndication:UP
+info: WORKER:PID:30281:1430843837454:POD:http:UP
+info: WORKER:PID:30281:1430843837641:POD:time:UP
+info: WORKER:PID:30281:1430843837646:POD:math:UP
+info: WORKER:PID:30281:1430843837650:POD:html:UP
+info: WORKER:PID:30281:1430843837655:POD:crypto:UP
+info: WORKER:PID:30281:1430843837670:POD:soundcloud:UP
+info: WORKER:PID:30281:1430843837675:POD:twilio:UP
+info: WORKER:PID:30281:1430843837701:POD:twitter:UP
+info: WORKER:PID:30281:1430843840336:BIPIO:STARTED:Tue May 05 2015 16:37:20 GMT+0000 (UTC)
+info: WORKER:PID:30281:1430843840347:RABBIT:Connected
+info: WORKER:PID:30281:1430843840385:TLD:UP
+info: WORKER:PID:30281:1430843840426:DAO:MONGODB:Connected
+info: WORKER:PID:30281:1430843840614:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30281:1430843840615:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30281:1430843840616:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30281:1430843840632:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.23:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843840674:Worker:23:Disconnect
+info: WORKER:PID:30307:1430843842967:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30307:1430843842968:Resolvable Interface lo:::1
+info: WORKER:PID:30307:1430843842968:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30307:1430843842968:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30307:1430843842968:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30307:1430843842968:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30307:1430843842968:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30307:1430843843652:POD:email:UP
+info: WORKER:PID:30307:1430843843658:POD:templater:UP
+info: WORKER:PID:30307:1430843843664:POD:flow:UP
+info: WORKER:PID:30307:1430843843669:POD:syndication:UP
+info: WORKER:PID:30307:1430843843675:POD:http:UP
+info: WORKER:PID:30307:1430843843867:POD:time:UP
+info: WORKER:PID:30307:1430843843872:POD:math:UP
+info: WORKER:PID:30307:1430843843877:POD:html:UP
+info: WORKER:PID:30307:1430843843882:POD:crypto:UP
+info: WORKER:PID:30307:1430843843898:POD:soundcloud:UP
+info: WORKER:PID:30307:1430843843904:POD:twilio:UP
+info: WORKER:PID:30307:1430843843936:POD:twitter:UP
+info: WORKER:PID:30307:1430843846407:BIPIO:STARTED:Tue May 05 2015 16:37:26 GMT+0000 (UTC)
+info: WORKER:PID:30307:1430843846421:RABBIT:Connected
+info: WORKER:PID:30307:1430843846440:TLD:UP
+info: WORKER:PID:30307:1430843846453:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30307:1430843846454:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30307:1430843846455:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30307:1430843846462:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30307:1430843846463:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30307:1430843846464:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30307:1430843846465:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30307:1430843846466:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30307:1430843846480:DAO:MONGODB:Connected
+info: WORKER:PID:30307:1430843846664:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.24:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843846707:Worker:24:Disconnect
+info: WORKER:PID:30321:1430843848970:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30321:1430843848971:Resolvable Interface lo:::1
+info: WORKER:PID:30321:1430843848971:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30321:1430843848971:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30321:1430843848971:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30321:1430843848971:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30321:1430843848971:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30321:1430843849612:POD:email:UP
+info: WORKER:PID:30321:1430843849618:POD:templater:UP
+info: WORKER:PID:30321:1430843849623:POD:flow:UP
+info: WORKER:PID:30321:1430843849628:POD:syndication:UP
+info: WORKER:PID:30321:1430843849633:POD:http:UP
+info: WORKER:PID:30321:1430843849826:POD:time:UP
+info: WORKER:PID:30321:1430843849833:POD:math:UP
+info: WORKER:PID:30321:1430843849838:POD:html:UP
+info: WORKER:PID:30321:1430843849843:POD:crypto:UP
+info: WORKER:PID:30321:1430843849858:POD:soundcloud:UP
+info: WORKER:PID:30321:1430843849865:POD:twilio:UP
+info: WORKER:PID:30321:1430843849896:POD:twitter:UP
+info: WORKER:PID:30321:1430843852277:BIPIO:STARTED:Tue May 05 2015 16:37:32 GMT+0000 (UTC)
+info: WORKER:PID:30321:1430843852287:RABBIT:Connected
+info: WORKER:PID:30321:1430843852310:TLD:UP
+info: WORKER:PID:30321:1430843852317:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30321:1430843852318:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30321:1430843852319:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30321:1430843852322:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30321:1430843852323:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30321:1430843852324:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30321:1430843852324:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30321:1430843852325:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30321:1430843852341:DAO:MONGODB:Connected
+info: WORKER:PID:30321:1430843852529:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.25:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843852560:Worker:25:Disconnect
+info: WORKER:PID:30333:1430843854830:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30333:1430843854831:Resolvable Interface lo:::1
+info: WORKER:PID:30333:1430843854831:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30333:1430843854831:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30333:1430843854831:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30333:1430843854831:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30333:1430843854831:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30333:1430843855466:POD:email:UP
+info: WORKER:PID:30333:1430843855472:POD:templater:UP
+info: WORKER:PID:30333:1430843855476:POD:flow:UP
+info: WORKER:PID:30333:1430843855481:POD:syndication:UP
+info: WORKER:PID:30333:1430843855485:POD:http:UP
+info: WORKER:PID:30333:1430843855673:POD:time:UP
+info: WORKER:PID:30333:1430843855682:POD:math:UP
+info: WORKER:PID:30333:1430843855687:POD:html:UP
+info: WORKER:PID:30333:1430843855691:POD:crypto:UP
+info: WORKER:PID:30333:1430843855708:POD:soundcloud:UP
+info: WORKER:PID:30333:1430843855713:POD:twilio:UP
+info: WORKER:PID:30333:1430843855743:POD:twitter:UP
+info: WORKER:PID:30333:1430843858054:BIPIO:STARTED:Tue May 05 2015 16:37:38 GMT+0000 (UTC)
+info: WORKER:PID:30333:1430843858065:RABBIT:Connected
+info: WORKER:PID:30333:1430843858086:TLD:UP
+info: WORKER:PID:30333:1430843858099:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30333:1430843858099:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30333:1430843858100:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30333:1430843858107:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30333:1430843858109:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30333:1430843858109:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30333:1430843858110:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30333:1430843858110:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30333:1430843858123:DAO:MONGODB:Connected
+info: WORKER:PID:30333:1430843858311:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.26:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843858343:Worker:26:Disconnect
+info: WORKER:PID:30347:1430843860563:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30347:1430843860564:Resolvable Interface lo:::1
+info: WORKER:PID:30347:1430843860564:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30347:1430843860564:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30347:1430843860564:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30347:1430843860564:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30347:1430843860564:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30347:1430843861167:POD:email:UP
+info: WORKER:PID:30347:1430843861172:POD:templater:UP
+info: WORKER:PID:30347:1430843861177:POD:flow:UP
+info: WORKER:PID:30347:1430843861181:POD:syndication:UP
+info: WORKER:PID:30347:1430843861186:POD:http:UP
+info: WORKER:PID:30347:1430843861397:POD:time:UP
+info: WORKER:PID:30347:1430843861402:POD:math:UP
+info: WORKER:PID:30347:1430843861406:POD:html:UP
+info: WORKER:PID:30347:1430843861411:POD:crypto:UP
+info: WORKER:PID:30347:1430843861415:POD:soundcloud:UP
+info: WORKER:PID:30347:1430843861420:POD:twilio:UP
+info: WORKER:PID:30347:1430843861447:POD:twitter:UP
+info: WORKER:PID:30347:1430843863878:BIPIO:STARTED:Tue May 05 2015 16:37:43 GMT+0000 (UTC)
+info: WORKER:PID:30347:1430843863889:RABBIT:Connected
+info: WORKER:PID:30347:1430843863920:TLD:UP
+info: WORKER:PID:30347:1430843863933:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30347:1430843863934:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30347:1430843863935:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30347:1430843863942:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30347:1430843863943:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30347:1430843863944:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30347:1430843863944:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30347:1430843863945:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30347:1430843863957:DAO:MONGODB:Connected
+info: WORKER:PID:30347:1430843864135:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.27:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843864175:Worker:27:Disconnect
+info: WORKER:PID:30361:1430843866438:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30361:1430843866439:Resolvable Interface lo:::1
+info: WORKER:PID:30361:1430843866439:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30361:1430843866439:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30361:1430843866440:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30361:1430843866440:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30361:1430843866440:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30361:1430843867077:POD:email:UP
+info: WORKER:PID:30361:1430843867083:POD:templater:UP
+info: WORKER:PID:30361:1430843867089:POD:flow:UP
+info: WORKER:PID:30361:1430843867094:POD:syndication:UP
+info: WORKER:PID:30361:1430843867098:POD:http:UP
+info: WORKER:PID:30361:1430843867295:POD:time:UP
+info: WORKER:PID:30361:1430843867300:POD:math:UP
+info: WORKER:PID:30361:1430843867305:POD:html:UP
+info: WORKER:PID:30361:1430843867310:POD:crypto:UP
+info: WORKER:PID:30361:1430843867315:POD:soundcloud:UP
+info: WORKER:PID:30361:1430843867321:POD:twilio:UP
+info: WORKER:PID:30361:1430843867365:POD:twitter:UP
+info: WORKER:PID:30361:1430843869906:BIPIO:STARTED:Tue May 05 2015 16:37:49 GMT+0000 (UTC)
+info: WORKER:PID:30361:1430843869925:RABBIT:Connected
+info: WORKER:PID:30361:1430843869947:TLD:UP
+info: WORKER:PID:30361:1430843869954:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30361:1430843869954:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30361:1430843869955:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30361:1430843869958:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30361:1430843869959:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30361:1430843869962:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30361:1430843869963:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30361:1430843869963:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30361:1430843869979:DAO:MONGODB:Connected
+info: WORKER:PID:30361:1430843870207:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.28:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843870231:Worker:28:Disconnect
+info: WORKER:PID:30373:1430843872533:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30373:1430843872534:Resolvable Interface lo:::1
+info: WORKER:PID:30373:1430843872534:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30373:1430843872534:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30373:1430843872534:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30373:1430843872534:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30373:1430843872534:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30373:1430843873170:POD:email:UP
+info: WORKER:PID:30373:1430843873175:POD:templater:UP
+info: WORKER:PID:30373:1430843873179:POD:flow:UP
+info: WORKER:PID:30373:1430843873185:POD:syndication:UP
+info: WORKER:PID:30373:1430843873189:POD:http:UP
+info: WORKER:PID:30373:1430843873383:POD:time:UP
+info: WORKER:PID:30373:1430843873392:POD:math:UP
+info: WORKER:PID:30373:1430843873397:POD:html:UP
+info: WORKER:PID:30373:1430843873401:POD:crypto:UP
+info: WORKER:PID:30373:1430843873417:POD:soundcloud:UP
+info: WORKER:PID:30373:1430843873421:POD:twilio:UP
+info: WORKER:PID:30373:1430843873446:POD:twitter:UP
+info: WORKER:PID:30373:1430843875895:BIPIO:STARTED:Tue May 05 2015 16:37:55 GMT+0000 (UTC)
+info: WORKER:PID:30373:1430843875907:RABBIT:Connected
+info: WORKER:PID:30373:1430843875929:TLD:UP
+info: WORKER:PID:30373:1430843875947:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30373:1430843875948:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30373:1430843875949:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30373:1430843875952:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30373:1430843875953:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30373:1430843875954:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30373:1430843875954:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30373:1430843875955:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30373:1430843875968:DAO:MONGODB:Connected
+info: WORKER:PID:30373:1430843876167:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.29:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843876192:Worker:29:Disconnect
+info: WORKER:PID:30446:1430843878455:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30446:1430843878456:Resolvable Interface lo:::1
+info: WORKER:PID:30446:1430843878456:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30446:1430843878456:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30446:1430843878456:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30446:1430843878456:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30446:1430843878456:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30446:1430843879079:POD:email:UP
+info: WORKER:PID:30446:1430843879084:POD:templater:UP
+info: WORKER:PID:30446:1430843879089:POD:flow:UP
+info: WORKER:PID:30446:1430843879093:POD:syndication:UP
+info: WORKER:PID:30446:1430843879097:POD:http:UP
+info: WORKER:PID:30446:1430843879289:POD:time:UP
+info: WORKER:PID:30446:1430843879293:POD:math:UP
+info: WORKER:PID:30446:1430843879298:POD:html:UP
+info: WORKER:PID:30446:1430843879302:POD:crypto:UP
+info: WORKER:PID:30446:1430843879317:POD:soundcloud:UP
+info: WORKER:PID:30446:1430843879321:POD:twilio:UP
+info: WORKER:PID:30446:1430843879349:POD:twitter:UP
+info: WORKER:PID:30446:1430843881700:BIPIO:STARTED:Tue May 05 2015 16:38:01 GMT+0000 (UTC)
+info: WORKER:PID:30446:1430843881711:RABBIT:Connected
+info: WORKER:PID:30446:1430843881730:TLD:UP
+info: WORKER:PID:30446:1430843881742:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30446:1430843881743:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30446:1430843881743:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30446:1430843881750:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30446:1430843881752:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30446:1430843881752:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30446:1430843881753:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30446:1430843881753:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30446:1430843881768:DAO:MONGODB:Connected
+info: WORKER:PID:30446:1430843881950:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.30:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843881977:Worker:30:Disconnect
+info: WORKER:PID:30458:1430843884276:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30458:1430843884277:Resolvable Interface lo:::1
+info: WORKER:PID:30458:1430843884277:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30458:1430843884277:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30458:1430843884278:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30458:1430843884278:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30458:1430843884278:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30458:1430843884931:POD:email:UP
+info: WORKER:PID:30458:1430843884937:POD:templater:UP
+info: WORKER:PID:30458:1430843884943:POD:flow:UP
+info: WORKER:PID:30458:1430843884948:POD:syndication:UP
+info: WORKER:PID:30458:1430843884953:POD:http:UP
+info: WORKER:PID:30458:1430843885145:POD:time:UP
+info: WORKER:PID:30458:1430843885150:POD:math:UP
+info: WORKER:PID:30458:1430843885155:POD:html:UP
+info: WORKER:PID:30458:1430843885160:POD:crypto:UP
+info: WORKER:PID:30458:1430843885176:POD:soundcloud:UP
+info: WORKER:PID:30458:1430843885181:POD:twilio:UP
+info: WORKER:PID:30458:1430843885207:POD:twitter:UP
+info: WORKER:PID:30458:1430843887654:BIPIO:STARTED:Tue May 05 2015 16:38:07 GMT+0000 (UTC)
+info: WORKER:PID:30458:1430843887729:RABBIT:Connected
+info: WORKER:PID:30458:1430843887750:TLD:UP
+info: WORKER:PID:30458:1430843887762:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30458:1430843887763:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30458:1430843887764:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30458:1430843887772:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30458:1430843887774:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30458:1430843887774:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30458:1430843887775:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30458:1430843887776:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30458:1430843887788:DAO:MONGODB:Connected
+info: WORKER:PID:30458:1430843887971:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.31:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843887997:Worker:31:Disconnect
+info: WORKER:PID:30472:1430843890270:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30472:1430843890271:Resolvable Interface lo:::1
+info: WORKER:PID:30472:1430843890271:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30472:1430843890271:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30472:1430843890271:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30472:1430843890271:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30472:1430843890271:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30472:1430843890927:POD:email:UP
+info: WORKER:PID:30472:1430843890933:POD:templater:UP
+info: WORKER:PID:30472:1430843890938:POD:flow:UP
+info: WORKER:PID:30472:1430843890943:POD:syndication:UP
+info: WORKER:PID:30472:1430843890949:POD:http:UP
+info: WORKER:PID:30472:1430843891138:POD:time:UP
+info: WORKER:PID:30472:1430843891143:POD:math:UP
+info: WORKER:PID:30472:1430843891149:POD:html:UP
+info: WORKER:PID:30472:1430843891153:POD:crypto:UP
+info: WORKER:PID:30472:1430843891171:POD:soundcloud:UP
+info: WORKER:PID:30472:1430843891177:POD:twilio:UP
+info: WORKER:PID:30472:1430843891208:POD:twitter:UP
+info: WORKER:PID:30472:1430843893610:BIPIO:STARTED:Tue May 05 2015 16:38:13 GMT+0000 (UTC)
+info: WORKER:PID:30472:1430843893621:RABBIT:Connected
+info: WORKER:PID:30472:1430843893640:TLD:UP
+info: WORKER:PID:30472:1430843893652:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30472:1430843893653:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30472:1430843893654:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30472:1430843893661:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30472:1430843893662:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30472:1430843893663:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30472:1430843893663:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30472:1430843893664:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30472:1430843893684:DAO:MONGODB:Connected
+info: WORKER:PID:30472:1430843893869:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.32:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843893899:Worker:32:Disconnect
+info: WORKER:PID:30486:1430843896115:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30486:1430843896116:Resolvable Interface lo:::1
+info: WORKER:PID:30486:1430843896116:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30486:1430843896116:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30486:1430843896116:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30486:1430843896116:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30486:1430843896117:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30486:1430843896750:POD:email:UP
+info: WORKER:PID:30486:1430843896754:POD:templater:UP
+info: WORKER:PID:30486:1430843896759:POD:flow:UP
+info: WORKER:PID:30486:1430843896763:POD:syndication:UP
+info: WORKER:PID:30486:1430843896767:POD:http:UP
+info: WORKER:PID:30486:1430843896954:POD:time:UP
+info: WORKER:PID:30486:1430843896959:POD:math:UP
+info: WORKER:PID:30486:1430843896963:POD:html:UP
+info: WORKER:PID:30486:1430843896967:POD:crypto:UP
+info: WORKER:PID:30486:1430843896983:POD:soundcloud:UP
+info: WORKER:PID:30486:1430843896988:POD:twilio:UP
+info: WORKER:PID:30486:1430843897013:POD:twitter:UP
+info: WORKER:PID:30486:1430843899258:BIPIO:STARTED:Tue May 05 2015 16:38:19 GMT+0000 (UTC)
+info: WORKER:PID:30486:1430843899266:RABBIT:Connected
+info: WORKER:PID:30486:1430843899291:TLD:UP
+info: WORKER:PID:30486:1430843899298:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30486:1430843899299:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30486:1430843899300:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30486:1430843899303:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30486:1430843899304:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30486:1430843899305:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30486:1430843899305:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30486:1430843899306:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30486:1430843899325:DAO:MONGODB:Connected
+info: WORKER:PID:30486:1430843899515:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.33:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843899538:Worker:33:Disconnect
+info: WORKER:PID:30498:1430843901728:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30498:1430843901729:Resolvable Interface lo:::1
+info: WORKER:PID:30498:1430843901729:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30498:1430843901729:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30498:1430843901729:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30498:1430843901729:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30498:1430843901730:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30498:1430843902355:POD:email:UP
+info: WORKER:PID:30498:1430843902360:POD:templater:UP
+info: WORKER:PID:30498:1430843902364:POD:flow:UP
+info: WORKER:PID:30498:1430843902369:POD:syndication:UP
+info: WORKER:PID:30498:1430843902374:POD:http:UP
+info: WORKER:PID:30498:1430843902572:POD:time:UP
+info: WORKER:PID:30498:1430843902577:POD:math:UP
+info: WORKER:PID:30498:1430843902582:POD:html:UP
+info: WORKER:PID:30498:1430843902586:POD:crypto:UP
+info: WORKER:PID:30498:1430843902591:POD:soundcloud:UP
+info: WORKER:PID:30498:1430843902595:POD:twilio:UP
+info: WORKER:PID:30498:1430843902622:POD:twitter:UP
+info: WORKER:PID:30498:1430843905053:BIPIO:STARTED:Tue May 05 2015 16:38:25 GMT+0000 (UTC)
+info: WORKER:PID:30498:1430843905066:RABBIT:Connected
+info: WORKER:PID:30498:1430843905096:TLD:UP
+info: WORKER:PID:30498:1430843905110:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30498:1430843905111:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30498:1430843905112:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30498:1430843905121:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30498:1430843905122:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30498:1430843905123:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30498:1430843905123:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30498:1430843905124:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30498:1430843905144:DAO:MONGODB:Connected
+info: WORKER:PID:30498:1430843905327:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.34:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843905351:Worker:34:Disconnect
+info: WORKER:PID:30512:1430843907558:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30512:1430843907559:Resolvable Interface lo:::1
+info: WORKER:PID:30512:1430843907559:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30512:1430843907559:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30512:1430843907559:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30512:1430843907560:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30512:1430843907560:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30512:1430843908193:POD:email:UP
+info: WORKER:PID:30512:1430843908199:POD:templater:UP
+info: WORKER:PID:30512:1430843908205:POD:flow:UP
+info: WORKER:PID:30512:1430843908210:POD:syndication:UP
+info: WORKER:PID:30512:1430843908215:POD:http:UP
+info: WORKER:PID:30512:1430843908407:POD:time:UP
+info: WORKER:PID:30512:1430843908412:POD:math:UP
+info: WORKER:PID:30512:1430843908418:POD:html:UP
+info: WORKER:PID:30512:1430843908423:POD:crypto:UP
+info: WORKER:PID:30512:1430843908440:POD:soundcloud:UP
+info: WORKER:PID:30512:1430843908446:POD:twilio:UP
+info: WORKER:PID:30512:1430843908478:POD:twitter:UP
+info: WORKER:PID:30512:1430843910807:BIPIO:STARTED:Tue May 05 2015 16:38:30 GMT+0000 (UTC)
+info: WORKER:PID:30512:1430843910816:RABBIT:Connected
+info: WORKER:PID:30512:1430843910840:TLD:UP
+info: WORKER:PID:30512:1430843910847:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30512:1430843910848:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30512:1430843910849:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30512:1430843910852:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30512:1430843910853:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30512:1430843910854:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30512:1430843910855:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30512:1430843910855:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30512:1430843910873:DAO:MONGODB:Connected
+info: WORKER:PID:30512:1430843911075:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.35:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843911100:Worker:35:Disconnect
+info: WORKER:PID:30524:1430843913398:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30524:1430843913398:Resolvable Interface lo:::1
+info: WORKER:PID:30524:1430843913399:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30524:1430843913399:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30524:1430843913399:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30524:1430843913399:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30524:1430843913399:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30524:1430843914025:POD:email:UP
+info: WORKER:PID:30524:1430843914030:POD:templater:UP
+info: WORKER:PID:30524:1430843914035:POD:flow:UP
+info: WORKER:PID:30524:1430843914040:POD:syndication:UP
+info: WORKER:PID:30524:1430843914044:POD:http:UP
+info: WORKER:PID:30524:1430843914257:POD:time:UP
+info: WORKER:PID:30524:1430843914265:POD:math:UP
+info: WORKER:PID:30524:1430843914272:POD:html:UP
+info: WORKER:PID:30524:1430843914279:POD:crypto:UP
+info: WORKER:PID:30524:1430843914296:POD:soundcloud:UP
+info: WORKER:PID:30524:1430843914301:POD:twilio:UP
+info: WORKER:PID:30524:1430843914330:POD:twitter:UP
+info: WORKER:PID:30524:1430843916651:BIPIO:STARTED:Tue May 05 2015 16:38:36 GMT+0000 (UTC)
+info: WORKER:PID:30524:1430843916662:RABBIT:Connected
+info: WORKER:PID:30524:1430843916688:TLD:UP
+info: WORKER:PID:30524:1430843916702:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30524:1430843916703:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30524:1430843916704:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30524:1430843916711:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30524:1430843916714:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30524:1430843916715:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30524:1430843916715:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30524:1430843916716:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30524:1430843916732:DAO:MONGODB:Connected
+info: WORKER:PID:30524:1430843916927:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.36:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843916954:Worker:36:Disconnect
+info: WORKER:PID:30538:1430843919115:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30538:1430843919116:Resolvable Interface lo:::1
+info: WORKER:PID:30538:1430843919116:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30538:1430843919116:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30538:1430843919116:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30538:1430843919116:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30538:1430843919116:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30538:1430843919723:POD:email:UP
+info: WORKER:PID:30538:1430843919727:POD:templater:UP
+info: WORKER:PID:30538:1430843919732:POD:flow:UP
+info: WORKER:PID:30538:1430843919737:POD:syndication:UP
+info: WORKER:PID:30538:1430843919741:POD:http:UP
+info: WORKER:PID:30538:1430843919931:POD:time:UP
+info: WORKER:PID:30538:1430843919935:POD:math:UP
+info: WORKER:PID:30538:1430843919940:POD:html:UP
+info: WORKER:PID:30538:1430843919944:POD:crypto:UP
+info: WORKER:PID:30538:1430843919960:POD:soundcloud:UP
+info: WORKER:PID:30538:1430843919965:POD:twilio:UP
+info: WORKER:PID:30538:1430843919992:POD:twitter:UP
+info: WORKER:PID:30538:1430843922447:BIPIO:STARTED:Tue May 05 2015 16:38:42 GMT+0000 (UTC)
+info: WORKER:PID:30538:1430843922457:RABBIT:Connected
+info: WORKER:PID:30538:1430843922475:TLD:UP
+info: WORKER:PID:30538:1430843922487:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30538:1430843922488:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30538:1430843922488:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30538:1430843922491:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30538:1430843922493:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30538:1430843922493:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30538:1430843922494:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30538:1430843922495:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30538:1430843922512:DAO:MONGODB:Connected
+info: WORKER:PID:30538:1430843922689:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.37:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843922719:Worker:37:Disconnect
+info: WORKER:PID:30550:1430843924939:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30550:1430843924940:Resolvable Interface lo:::1
+info: WORKER:PID:30550:1430843924940:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30550:1430843924940:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30550:1430843924940:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30550:1430843924940:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30550:1430843924940:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30550:1430843925606:POD:email:UP
+info: WORKER:PID:30550:1430843925611:POD:templater:UP
+info: WORKER:PID:30550:1430843925615:POD:flow:UP
+info: WORKER:PID:30550:1430843925620:POD:syndication:UP
+info: WORKER:PID:30550:1430843925624:POD:http:UP
+info: WORKER:PID:30550:1430843925816:POD:time:UP
+info: WORKER:PID:30550:1430843925833:POD:math:UP
+info: WORKER:PID:30550:1430843925837:POD:html:UP
+info: WORKER:PID:30550:1430843925841:POD:crypto:UP
+info: WORKER:PID:30550:1430843925846:POD:soundcloud:UP
+info: WORKER:PID:30550:1430843925850:POD:twilio:UP
+info: WORKER:PID:30550:1430843925878:POD:twitter:UP
+info: WORKER:PID:30550:1430843928232:BIPIO:STARTED:Tue May 05 2015 16:38:48 GMT+0000 (UTC)
+info: WORKER:PID:30550:1430843928247:RABBIT:Connected
+info: WORKER:PID:30550:1430843928277:TLD:UP
+info: WORKER:PID:30550:1430843928291:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30550:1430843928293:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30550:1430843928293:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30550:1430843928300:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30550:1430843928304:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30550:1430843928305:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30550:1430843928305:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30550:1430843928306:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30550:1430843928319:DAO:MONGODB:Connected
+info: WORKER:PID:30550:1430843928523:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.38:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843928551:Worker:38:Disconnect
+info: WORKER:PID:30564:1430843930774:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30564:1430843930774:Resolvable Interface lo:::1
+info: WORKER:PID:30564:1430843930775:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30564:1430843930775:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30564:1430843930775:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30564:1430843930775:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30564:1430843930775:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30564:1430843931416:POD:email:UP
+info: WORKER:PID:30564:1430843931422:POD:templater:UP
+info: WORKER:PID:30564:1430843931428:POD:flow:UP
+info: WORKER:PID:30564:1430843931433:POD:syndication:UP
+info: WORKER:PID:30564:1430843931438:POD:http:UP
+info: WORKER:PID:30564:1430843931630:POD:time:UP
+info: WORKER:PID:30564:1430843931635:POD:math:UP
+info: WORKER:PID:30564:1430843931640:POD:html:UP
+info: WORKER:PID:30564:1430843931645:POD:crypto:UP
+info: WORKER:PID:30564:1430843931660:POD:soundcloud:UP
+info: WORKER:PID:30564:1430843931666:POD:twilio:UP
+info: WORKER:PID:30564:1430843931697:POD:twitter:UP
+info: WORKER:PID:30564:1430843934334:BIPIO:STARTED:Tue May 05 2015 16:38:54 GMT+0000 (UTC)
+info: WORKER:PID:30564:1430843934347:RABBIT:Connected
+info: WORKER:PID:30564:1430843934366:TLD:UP
+info: WORKER:PID:30564:1430843934383:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30564:1430843934384:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30564:1430843934385:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30564:1430843934393:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30564:1430843934395:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30564:1430843934396:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30564:1430843934396:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30564:1430843934397:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30564:1430843934410:DAO:MONGODB:Connected
+info: WORKER:PID:30564:1430843934593:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.39:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843934623:Worker:39:Disconnect
+info: WORKER:PID:30578:1430843936975:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30578:1430843936976:Resolvable Interface lo:::1
+info: WORKER:PID:30578:1430843936976:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30578:1430843936976:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30578:1430843936976:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30578:1430843936977:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30578:1430843936977:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30578:1430843937651:POD:email:UP
+info: WORKER:PID:30578:1430843937656:POD:templater:UP
+info: WORKER:PID:30578:1430843937661:POD:flow:UP
+info: WORKER:PID:30578:1430843937667:POD:syndication:UP
+info: WORKER:PID:30578:1430843937672:POD:http:UP
+info: WORKER:PID:30578:1430843937862:POD:time:UP
+info: WORKER:PID:30578:1430843937868:POD:math:UP
+info: WORKER:PID:30578:1430843937873:POD:html:UP
+info: WORKER:PID:30578:1430843937878:POD:crypto:UP
+info: WORKER:PID:30578:1430843937883:POD:soundcloud:UP
+info: WORKER:PID:30578:1430843937901:POD:twilio:UP
+info: WORKER:PID:30578:1430843937934:POD:twitter:UP
+info: WORKER:PID:30578:1430843940359:BIPIO:STARTED:Tue May 05 2015 16:39:00 GMT+0000 (UTC)
+info: WORKER:PID:30578:1430843940371:RABBIT:Connected
+info: WORKER:PID:30578:1430843940390:TLD:UP
+info: WORKER:PID:30578:1430843940407:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30578:1430843940408:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30578:1430843940409:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30578:1430843940414:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30578:1430843940415:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30578:1430843940416:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30578:1430843940417:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30578:1430843940417:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30578:1430843940430:DAO:MONGODB:Connected
+info: WORKER:PID:30578:1430843940613:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.40:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843940640:Worker:40:Disconnect
+info: WORKER:PID:30636:1430843943190:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30636:1430843943190:Resolvable Interface lo:::1
+info: WORKER:PID:30636:1430843943191:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30636:1430843943191:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30636:1430843943191:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30636:1430843943191:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30636:1430843943191:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30636:1430843943884:POD:email:UP
+info: WORKER:PID:30636:1430843943891:POD:templater:UP
+info: WORKER:PID:30636:1430843943896:POD:flow:UP
+info: WORKER:PID:30636:1430843943902:POD:syndication:UP
+info: WORKER:PID:30636:1430843943907:POD:http:UP
+info: WORKER:PID:30636:1430843944102:POD:time:UP
+info: WORKER:PID:30636:1430843944108:POD:math:UP
+info: WORKER:PID:30636:1430843944115:POD:html:UP
+info: WORKER:PID:30636:1430843944122:POD:crypto:UP
+info: WORKER:PID:30636:1430843944127:POD:soundcloud:UP
+info: WORKER:PID:30636:1430843944149:POD:twilio:UP
+info: WORKER:PID:30636:1430843944182:POD:twitter:UP
+info: WORKER:PID:30636:1430843946734:BIPIO:STARTED:Tue May 05 2015 16:39:06 GMT+0000 (UTC)
+info: WORKER:PID:30636:1430843946744:RABBIT:Connected
+info: WORKER:PID:30636:1430843946766:TLD:UP
+info: WORKER:PID:30636:1430843946778:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30636:1430843946779:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30636:1430843946780:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30636:1430843946787:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30636:1430843946788:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30636:1430843946789:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30636:1430843946789:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30636:1430843946790:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30636:1430843946802:DAO:MONGODB:Connected
+info: WORKER:PID:30636:1430843946988:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.41:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843947018:Worker:41:Disconnect
+info: WORKER:PID:30663:1430843949251:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30663:1430843949252:Resolvable Interface lo:::1
+info: WORKER:PID:30663:1430843949252:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30663:1430843949252:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30663:1430843949252:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30663:1430843949252:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30663:1430843949252:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30663:1430843949887:POD:email:UP
+info: WORKER:PID:30663:1430843949892:POD:templater:UP
+info: WORKER:PID:30663:1430843949898:POD:flow:UP
+info: WORKER:PID:30663:1430843949903:POD:syndication:UP
+info: WORKER:PID:30663:1430843949908:POD:http:UP
+info: WORKER:PID:30663:1430843950096:POD:time:UP
+info: WORKER:PID:30663:1430843950101:POD:math:UP
+info: WORKER:PID:30663:1430843950105:POD:html:UP
+info: WORKER:PID:30663:1430843950110:POD:crypto:UP
+info: WORKER:PID:30663:1430843950125:POD:soundcloud:UP
+info: WORKER:PID:30663:1430843950129:POD:twilio:UP
+info: WORKER:PID:30663:1430843950154:POD:twitter:UP
+info: WORKER:PID:30663:1430843952496:BIPIO:STARTED:Tue May 05 2015 16:39:12 GMT+0000 (UTC)
+info: WORKER:PID:30663:1430843952506:RABBIT:Connected
+info: WORKER:PID:30663:1430843952529:TLD:UP
+info: WORKER:PID:30663:1430843952536:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30663:1430843952537:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30663:1430843952537:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30663:1430843952541:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30663:1430843952542:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30663:1430843952543:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30663:1430843952543:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30663:1430843952544:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30663:1430843952565:DAO:MONGODB:Connected
+info: WORKER:PID:30663:1430843952748:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.42:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843952777:Worker:42:Disconnect
+info: WORKER:PID:30675:1430843955006:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30675:1430843955007:Resolvable Interface lo:::1
+info: WORKER:PID:30675:1430843955007:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30675:1430843955007:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30675:1430843955007:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30675:1430843955007:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30675:1430843955007:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30675:1430843955622:POD:email:UP
+info: WORKER:PID:30675:1430843955627:POD:templater:UP
+info: WORKER:PID:30675:1430843955632:POD:flow:UP
+info: WORKER:PID:30675:1430843955636:POD:syndication:UP
+info: WORKER:PID:30675:1430843955640:POD:http:UP
+info: WORKER:PID:30675:1430843955828:POD:time:UP
+info: WORKER:PID:30675:1430843955833:POD:math:UP
+info: WORKER:PID:30675:1430843955838:POD:html:UP
+info: WORKER:PID:30675:1430843955842:POD:crypto:UP
+info: WORKER:PID:30675:1430843955846:POD:soundcloud:UP
+info: WORKER:PID:30675:1430843955862:POD:twilio:UP
+info: WORKER:PID:30675:1430843955889:POD:twitter:UP
+info: WORKER:PID:30675:1430843958308:BIPIO:STARTED:Tue May 05 2015 16:39:18 GMT+0000 (UTC)
+info: WORKER:PID:30675:1430843958325:RABBIT:Connected
+info: WORKER:PID:30675:1430843958346:TLD:UP
+info: WORKER:PID:30675:1430843958368:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30675:1430843958369:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30675:1430843958370:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30675:1430843958374:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30675:1430843958376:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30675:1430843958376:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30675:1430843958377:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30675:1430843958378:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30675:1430843958390:DAO:MONGODB:Connected
+info: WORKER:PID:30675:1430843958577:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.43:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843958606:Worker:43:Disconnect
+info: WORKER:PID:30688:1430843960840:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30688:1430843960841:Resolvable Interface lo:::1
+info: WORKER:PID:30688:1430843960841:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30688:1430843960841:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30688:1430843960841:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30688:1430843960841:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30688:1430843960841:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30688:1430843961500:POD:email:UP
+info: WORKER:PID:30688:1430843961505:POD:templater:UP
+info: WORKER:PID:30688:1430843961510:POD:flow:UP
+info: WORKER:PID:30688:1430843961515:POD:syndication:UP
+info: WORKER:PID:30688:1430843961520:POD:http:UP
+info: WORKER:PID:30688:1430843961718:POD:time:UP
+info: WORKER:PID:30688:1430843961734:POD:math:UP
+info: WORKER:PID:30688:1430843961739:POD:html:UP
+info: WORKER:PID:30688:1430843961744:POD:crypto:UP
+info: WORKER:PID:30688:1430843961749:POD:soundcloud:UP
+info: WORKER:PID:30688:1430843961753:POD:twilio:UP
+info: WORKER:PID:30688:1430843961778:POD:twitter:UP
+info: WORKER:PID:30688:1430843964170:BIPIO:STARTED:Tue May 05 2015 16:39:24 GMT+0000 (UTC)
+info: WORKER:PID:30688:1430843964182:RABBIT:Connected
+info: WORKER:PID:30688:1430843964220:TLD:UP
+info: WORKER:PID:30688:1430843964237:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30688:1430843964238:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30688:1430843964239:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30688:1430843964242:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30688:1430843964243:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30688:1430843964244:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30688:1430843964244:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30688:1430843964245:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30688:1430843964264:DAO:MONGODB:Connected
+info: WORKER:PID:30688:1430843964459:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.44:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843964490:Worker:44:Disconnect
+info: WORKER:PID:30701:1430843966695:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30701:1430843966695:Resolvable Interface lo:::1
+info: WORKER:PID:30701:1430843966695:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30701:1430843966696:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30701:1430843966696:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30701:1430843966696:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30701:1430843966696:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30701:1430843967364:POD:email:UP
+info: WORKER:PID:30701:1430843967370:POD:templater:UP
+info: WORKER:PID:30701:1430843967377:POD:flow:UP
+info: WORKER:PID:30701:1430843967382:POD:syndication:UP
+info: WORKER:PID:30701:1430843967387:POD:http:UP
+info: WORKER:PID:30701:1430843967578:POD:time:UP
+info: WORKER:PID:30701:1430843967583:POD:math:UP
+info: WORKER:PID:30701:1430843967589:POD:html:UP
+info: WORKER:PID:30701:1430843967594:POD:crypto:UP
+info: WORKER:PID:30701:1430843967609:POD:soundcloud:UP
+info: WORKER:PID:30701:1430843967615:POD:twilio:UP
+info: WORKER:PID:30701:1430843967646:POD:twitter:UP
+info: WORKER:PID:30701:1430843970110:BIPIO:STARTED:Tue May 05 2015 16:39:30 GMT+0000 (UTC)
+info: WORKER:PID:30701:1430843970122:RABBIT:Connected
+info: WORKER:PID:30701:1430843970144:TLD:UP
+info: WORKER:PID:30701:1430843970161:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30701:1430843970162:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30701:1430843970163:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30701:1430843970172:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30701:1430843970173:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30701:1430843970174:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30701:1430843970174:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30701:1430843970175:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30701:1430843970192:DAO:MONGODB:Connected
+info: WORKER:PID:30701:1430843970384:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.45:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843970415:Worker:45:Disconnect
+info: WORKER:PID:30713:1430843972671:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30713:1430843972671:Resolvable Interface lo:::1
+info: WORKER:PID:30713:1430843972672:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30713:1430843972672:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30713:1430843972672:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30713:1430843972672:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30713:1430843972672:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30713:1430843973306:POD:email:UP
+info: WORKER:PID:30713:1430843973312:POD:templater:UP
+info: WORKER:PID:30713:1430843973318:POD:flow:UP
+info: WORKER:PID:30713:1430843973323:POD:syndication:UP
+info: WORKER:PID:30713:1430843973328:POD:http:UP
+info: WORKER:PID:30713:1430843973521:POD:time:UP
+info: WORKER:PID:30713:1430843973527:POD:math:UP
+info: WORKER:PID:30713:1430843973532:POD:html:UP
+info: WORKER:PID:30713:1430843973538:POD:crypto:UP
+info: WORKER:PID:30713:1430843973543:POD:soundcloud:UP
+info: WORKER:PID:30713:1430843973562:POD:twilio:UP
+info: WORKER:PID:30713:1430843973599:POD:twitter:UP
+info: WORKER:PID:30713:1430843975895:BIPIO:STARTED:Tue May 05 2015 16:39:35 GMT+0000 (UTC)
+info: WORKER:PID:30713:1430843975909:RABBIT:Connected
+info: WORKER:PID:30713:1430843975928:TLD:UP
+info: WORKER:PID:30713:1430843975942:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30713:1430843975943:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30713:1430843975943:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30713:1430843975950:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30713:1430843975952:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30713:1430843975955:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30713:1430843975955:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30713:1430843975956:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30713:1430843975970:DAO:MONGODB:Connected
+info: WORKER:PID:30713:1430843976160:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.46:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843976192:Worker:46:Disconnect
+info: WORKER:PID:30727:1430843978491:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30727:1430843978492:Resolvable Interface lo:::1
+info: WORKER:PID:30727:1430843978492:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30727:1430843978492:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30727:1430843978492:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30727:1430843978492:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30727:1430843978492:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30727:1430843979141:POD:email:UP
+info: WORKER:PID:30727:1430843979146:POD:templater:UP
+info: WORKER:PID:30727:1430843979151:POD:flow:UP
+info: WORKER:PID:30727:1430843979155:POD:syndication:UP
+info: WORKER:PID:30727:1430843979160:POD:http:UP
+info: WORKER:PID:30727:1430843979359:POD:time:UP
+info: WORKER:PID:30727:1430843979364:POD:math:UP
+info: WORKER:PID:30727:1430843979369:POD:html:UP
+info: WORKER:PID:30727:1430843979373:POD:crypto:UP
+info: WORKER:PID:30727:1430843979389:POD:soundcloud:UP
+info: WORKER:PID:30727:1430843979394:POD:twilio:UP
+info: WORKER:PID:30727:1430843979421:POD:twitter:UP
+info: WORKER:PID:30727:1430843981765:BIPIO:STARTED:Tue May 05 2015 16:39:41 GMT+0000 (UTC)
+info: WORKER:PID:30727:1430843981778:RABBIT:Connected
+info: WORKER:PID:30727:1430843981797:TLD:UP
+info: WORKER:PID:30727:1430843981821:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30727:1430843981822:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30727:1430843981823:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30727:1430843981827:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30727:1430843981829:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30727:1430843981829:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30727:1430843981830:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30727:1430843981830:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30727:1430843981863:DAO:MONGODB:Connected
+info: WORKER:PID:30727:1430843982066:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.47:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843982095:Worker:47:Disconnect
+info: WORKER:PID:30739:1430843984413:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30739:1430843984414:Resolvable Interface lo:::1
+info: WORKER:PID:30739:1430843984414:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30739:1430843984414:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30739:1430843984414:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30739:1430843984414:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30739:1430843984414:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30739:1430843985062:POD:email:UP
+info: WORKER:PID:30739:1430843985068:POD:templater:UP
+info: WORKER:PID:30739:1430843985073:POD:flow:UP
+info: WORKER:PID:30739:1430843985079:POD:syndication:UP
+info: WORKER:PID:30739:1430843985084:POD:http:UP
+info: WORKER:PID:30739:1430843985275:POD:time:UP
+info: WORKER:PID:30739:1430843985280:POD:math:UP
+info: WORKER:PID:30739:1430843985286:POD:html:UP
+info: WORKER:PID:30739:1430843985291:POD:crypto:UP
+info: WORKER:PID:30739:1430843985306:POD:soundcloud:UP
+info: WORKER:PID:30739:1430843985312:POD:twilio:UP
+info: WORKER:PID:30739:1430843985351:POD:twitter:UP
+info: WORKER:PID:30739:1430843987783:BIPIO:STARTED:Tue May 05 2015 16:39:47 GMT+0000 (UTC)
+info: WORKER:PID:30739:1430843987795:RABBIT:Connected
+info: WORKER:PID:30739:1430843987821:TLD:UP
+info: WORKER:PID:30739:1430843987850:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30739:1430843987851:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30739:1430843987852:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30739:1430843987856:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30739:1430843987857:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30739:1430843987857:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30739:1430843987858:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30739:1430843987859:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30739:1430843987871:DAO:MONGODB:Connected
+info: WORKER:PID:30739:1430843988053:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.48:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843988082:Worker:48:Disconnect
+info: WORKER:PID:30753:1430843990318:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30753:1430843990318:Resolvable Interface lo:::1
+info: WORKER:PID:30753:1430843990319:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30753:1430843990319:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30753:1430843990319:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30753:1430843990319:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30753:1430843990319:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30753:1430843990957:POD:email:UP
+info: WORKER:PID:30753:1430843990962:POD:templater:UP
+info: WORKER:PID:30753:1430843990967:POD:flow:UP
+info: WORKER:PID:30753:1430843990973:POD:syndication:UP
+info: WORKER:PID:30753:1430843990978:POD:http:UP
+info: WORKER:PID:30753:1430843991185:POD:time:UP
+info: WORKER:PID:30753:1430843991190:POD:math:UP
+info: WORKER:PID:30753:1430843991196:POD:html:UP
+info: WORKER:PID:30753:1430843991200:POD:crypto:UP
+info: WORKER:PID:30753:1430843991206:POD:soundcloud:UP
+info: WORKER:PID:30753:1430843991212:POD:twilio:UP
+info: WORKER:PID:30753:1430843991245:POD:twitter:UP
+info: WORKER:PID:30753:1430843993730:BIPIO:STARTED:Tue May 05 2015 16:39:53 GMT+0000 (UTC)
+info: WORKER:PID:30753:1430843993740:RABBIT:Connected
+info: WORKER:PID:30753:1430843993773:TLD:UP
+info: WORKER:PID:30753:1430843993787:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30753:1430843993787:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30753:1430843993788:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30753:1430843993792:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30753:1430843993793:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30753:1430843993793:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30753:1430843993794:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30753:1430843993794:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30753:1430843993814:DAO:MONGODB:Connected
+info: WORKER:PID:30753:1430843993997:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.49:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430843994030:Worker:49:Disconnect
+info: WORKER:PID:30766:1430843996343:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30766:1430843996343:Resolvable Interface lo:::1
+info: WORKER:PID:30766:1430843996344:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30766:1430843996344:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30766:1430843996344:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30766:1430843996344:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30766:1430843996344:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30766:1430843997004:POD:email:UP
+info: WORKER:PID:30766:1430843997009:POD:templater:UP
+info: WORKER:PID:30766:1430843997014:POD:flow:UP
+info: WORKER:PID:30766:1430843997019:POD:syndication:UP
+info: WORKER:PID:30766:1430843997025:POD:http:UP
+info: WORKER:PID:30766:1430843997225:POD:time:UP
+info: WORKER:PID:30766:1430843997230:POD:math:UP
+info: WORKER:PID:30766:1430843997236:POD:html:UP
+info: WORKER:PID:30766:1430843997241:POD:crypto:UP
+info: WORKER:PID:30766:1430843997246:POD:soundcloud:UP
+info: WORKER:PID:30766:1430843997263:POD:twilio:UP
+info: WORKER:PID:30766:1430843997301:POD:twitter:UP
+info: WORKER:PID:30766:1430843999847:BIPIO:STARTED:Tue May 05 2015 16:39:59 GMT+0000 (UTC)
+info: WORKER:PID:30766:1430843999859:RABBIT:Connected
+info: WORKER:PID:30766:1430843999881:TLD:UP
+info: WORKER:PID:30766:1430843999895:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30766:1430843999896:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30766:1430843999896:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30766:1430843999900:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30766:1430843999901:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30766:1430843999902:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30766:1430843999902:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30766:1430843999903:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30766:1430843999932:DAO:MONGODB:Connected
+info: WORKER:PID:30766:1430844000115:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.50:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844000143:Worker:50:Disconnect
+info: WORKER:PID:30837:1430844002449:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30837:1430844002449:Resolvable Interface lo:::1
+info: WORKER:PID:30837:1430844002450:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30837:1430844002450:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30837:1430844002450:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30837:1430844002450:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30837:1430844002450:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30837:1430844003110:POD:email:UP
+info: WORKER:PID:30837:1430844003117:POD:templater:UP
+info: WORKER:PID:30837:1430844003125:POD:flow:UP
+info: WORKER:PID:30837:1430844003132:POD:syndication:UP
+info: WORKER:PID:30837:1430844003139:POD:http:UP
+info: WORKER:PID:30837:1430844003390:POD:time:UP
+info: WORKER:PID:30837:1430844003397:POD:math:UP
+info: WORKER:PID:30837:1430844003402:POD:html:UP
+info: WORKER:PID:30837:1430844003408:POD:crypto:UP
+info: WORKER:PID:30837:1430844003415:POD:soundcloud:UP
+info: WORKER:PID:30837:1430844003435:POD:twilio:UP
+info: WORKER:PID:30837:1430844003479:POD:twitter:UP
+info: WORKER:PID:30837:1430844006023:BIPIO:STARTED:Tue May 05 2015 16:40:06 GMT+0000 (UTC)
+info: WORKER:PID:30837:1430844006034:RABBIT:Connected
+info: WORKER:PID:30837:1430844006053:TLD:UP
+info: WORKER:PID:30837:1430844006065:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30837:1430844006066:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30837:1430844006067:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30837:1430844006074:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30837:1430844006075:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30837:1430844006076:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30837:1430844006076:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30837:1430844006077:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30837:1430844006089:DAO:MONGODB:Connected
+info: WORKER:PID:30837:1430844006276:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.51:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844006305:Worker:51:Disconnect
+info: WORKER:PID:30853:1430844008537:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30853:1430844008538:Resolvable Interface lo:::1
+info: WORKER:PID:30853:1430844008538:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30853:1430844008538:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30853:1430844008538:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30853:1430844008538:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30853:1430844008538:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30853:1430844009169:POD:email:UP
+info: WORKER:PID:30853:1430844009174:POD:templater:UP
+info: WORKER:PID:30853:1430844009179:POD:flow:UP
+info: WORKER:PID:30853:1430844009184:POD:syndication:UP
+info: WORKER:PID:30853:1430844009189:POD:http:UP
+info: WORKER:PID:30853:1430844009379:POD:time:UP
+info: WORKER:PID:30853:1430844009384:POD:math:UP
+info: WORKER:PID:30853:1430844009389:POD:html:UP
+info: WORKER:PID:30853:1430844009394:POD:crypto:UP
+info: WORKER:PID:30853:1430844009409:POD:soundcloud:UP
+info: WORKER:PID:30853:1430844009414:POD:twilio:UP
+info: WORKER:PID:30853:1430844009440:POD:twitter:UP
+info: WORKER:PID:30853:1430844011972:BIPIO:STARTED:Tue May 05 2015 16:40:11 GMT+0000 (UTC)
+info: WORKER:PID:30853:1430844011984:RABBIT:Connected
+info: WORKER:PID:30853:1430844012003:TLD:UP
+info: WORKER:PID:30853:1430844012016:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30853:1430844012016:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30853:1430844012017:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30853:1430844012024:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30853:1430844012025:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30853:1430844012026:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30853:1430844012026:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30853:1430844012027:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30853:1430844012039:DAO:MONGODB:Connected
+info: WORKER:PID:30853:1430844012251:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.52:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844012283:Worker:52:Disconnect
+info: WORKER:PID:30865:1430844014639:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30865:1430844014640:Resolvable Interface lo:::1
+info: WORKER:PID:30865:1430844014640:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30865:1430844014640:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30865:1430844014640:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30865:1430844014640:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30865:1430844014640:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30865:1430844015294:POD:email:UP
+info: WORKER:PID:30865:1430844015299:POD:templater:UP
+info: WORKER:PID:30865:1430844015303:POD:flow:UP
+info: WORKER:PID:30865:1430844015309:POD:syndication:UP
+info: WORKER:PID:30865:1430844015314:POD:http:UP
+info: WORKER:PID:30865:1430844015510:POD:time:UP
+info: WORKER:PID:30865:1430844015515:POD:math:UP
+info: WORKER:PID:30865:1430844015521:POD:html:UP
+info: WORKER:PID:30865:1430844015526:POD:crypto:UP
+info: WORKER:PID:30865:1430844015531:POD:soundcloud:UP
+info: WORKER:PID:30865:1430844015537:POD:twilio:UP
+info: WORKER:PID:30865:1430844015581:POD:twitter:UP
+info: WORKER:PID:30865:1430844017898:BIPIO:STARTED:Tue May 05 2015 16:40:17 GMT+0000 (UTC)
+info: WORKER:PID:30865:1430844017907:RABBIT:Connected
+info: WORKER:PID:30865:1430844017931:TLD:UP
+info: WORKER:PID:30865:1430844017938:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30865:1430844017938:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30865:1430844017939:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30865:1430844017942:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30865:1430844017944:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30865:1430844017944:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30865:1430844017945:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30865:1430844017945:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30865:1430844017961:DAO:MONGODB:Connected
+info: WORKER:PID:30865:1430844018145:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.53:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844018177:Worker:53:Disconnect
+info: WORKER:PID:30879:1430844020388:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30879:1430844020389:Resolvable Interface lo:::1
+info: WORKER:PID:30879:1430844020389:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30879:1430844020389:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30879:1430844020389:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30879:1430844020389:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30879:1430844020389:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30879:1430844021060:POD:email:UP
+info: WORKER:PID:30879:1430844021066:POD:templater:UP
+info: WORKER:PID:30879:1430844021071:POD:flow:UP
+info: WORKER:PID:30879:1430844021077:POD:syndication:UP
+info: WORKER:PID:30879:1430844021083:POD:http:UP
+info: WORKER:PID:30879:1430844021280:POD:time:UP
+info: WORKER:PID:30879:1430844021286:POD:math:UP
+info: WORKER:PID:30879:1430844021291:POD:html:UP
+info: WORKER:PID:30879:1430844021296:POD:crypto:UP
+info: WORKER:PID:30879:1430844021313:POD:soundcloud:UP
+info: WORKER:PID:30879:1430844021319:POD:twilio:UP
+info: WORKER:PID:30879:1430844021348:POD:twitter:UP
+info: WORKER:PID:30879:1430844023800:BIPIO:STARTED:Tue May 05 2015 16:40:23 GMT+0000 (UTC)
+info: WORKER:PID:30879:1430844023812:RABBIT:Connected
+info: WORKER:PID:30879:1430844023832:TLD:UP
+info: WORKER:PID:30879:1430844023848:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30879:1430844023850:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30879:1430844023850:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30879:1430844023854:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30879:1430844023855:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30879:1430844023855:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30879:1430844023856:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30879:1430844023856:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30879:1430844023869:DAO:MONGODB:Connected
+info: WORKER:PID:30879:1430844024051:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.54:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844024080:Worker:54:Disconnect
+info: WORKER:PID:30893:1430844026446:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30893:1430844026447:Resolvable Interface lo:::1
+info: WORKER:PID:30893:1430844026447:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30893:1430844026447:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30893:1430844026447:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30893:1430844026447:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30893:1430844026447:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30893:1430844027245:POD:email:UP
+info: WORKER:PID:30893:1430844027254:POD:templater:UP
+info: WORKER:PID:30893:1430844027262:POD:flow:UP
+info: WORKER:PID:30893:1430844027270:POD:syndication:UP
+info: WORKER:PID:30893:1430844027278:POD:http:UP
+info: WORKER:PID:30893:1430844027713:POD:time:UP
+info: WORKER:PID:30893:1430844027723:POD:math:UP
+info: WORKER:PID:30893:1430844027733:POD:html:UP
+info: WORKER:PID:30893:1430844027741:POD:crypto:UP
+info: WORKER:PID:30893:1430844027748:POD:soundcloud:UP
+info: WORKER:PID:30893:1430844027757:POD:twilio:UP
+info: WORKER:PID:30893:1430844027838:POD:twitter:UP
+info: WORKER:PID:29672:1430844127055:Worker:1:Disconnect
+info: WORKER:PID:30906:1430844129960:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30906:1430844129967:Resolvable Interface lo:::1
+info: WORKER:PID:30906:1430844129967:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30906:1430844129967:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30906:1430844129967:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30906:1430844129967:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30906:1430844129967:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30893:1430844130662:BIPIO:STARTED:Tue May 05 2015 16:42:10 GMT+0000 (UTC)
+info: WORKER:PID:30893:1430844130683:RABBIT:Connected
+info: WORKER:PID:30893:1430844130751:TLD:UP
+info: WORKER:PID:30893:1430844130798:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30893:1430844130802:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30893:1430844130803:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30893:1430844130811:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30893:1430844130816:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30893:1430844130818:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30893:1430844130819:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30893:1430844130820:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:30893:1430844130860:DAO:MONGODB:Connected
+info: WORKER:PID:30893:1430844131310:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.55:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844131384:Worker:55:Disconnect
+info: WORKER:PID:30906:1430844131929:POD:email:UP
+info: WORKER:PID:30906:1430844131941:POD:templater:UP
+info: WORKER:PID:30906:1430844131956:POD:flow:UP
+info: WORKER:PID:30906:1430844131969:POD:syndication:UP
+info: WORKER:PID:30906:1430844131984:POD:http:UP
+info: WORKER:PID:30906:1430844132638:POD:time:UP
+info: WORKER:PID:30906:1430844132652:POD:math:UP
+info: WORKER:PID:30906:1430844132666:POD:html:UP
+info: WORKER:PID:30906:1430844132678:POD:crypto:UP
+info: WORKER:PID:30906:1430844132691:POD:soundcloud:UP
+info: WORKER:PID:30906:1430844132703:POD:twilio:UP
+info: WORKER:PID:30906:1430844132809:POD:twitter:UP
+info: WORKER:PID:30973:1430844132958:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:30973:1430844132960:Resolvable Interface lo:::1
+info: WORKER:PID:30973:1430844132960:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:30973:1430844132960:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:30973:1430844132960:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:30973:1430844132960:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:30973:1430844132961:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:30906:1430844134077:POD:Registering Cron:syndication:undefined
+info: WORKER:PID:30973:1430844134685:POD:email:UP
+info: WORKER:PID:30973:1430844134698:POD:templater:UP
+info: WORKER:PID:30973:1430844134710:POD:flow:UP
+info: WORKER:PID:30973:1430844134724:POD:syndication:UP
+info: WORKER:PID:30973:1430844134734:POD:http:UP
+info: WORKER:PID:30973:1430844135392:POD:time:UP
+info: WORKER:PID:30973:1430844135404:POD:math:UP
+info: WORKER:PID:30973:1430844135418:POD:html:UP
+info: WORKER:PID:30973:1430844135429:POD:crypto:UP
+info: WORKER:PID:30973:1430844135480:POD:soundcloud:UP
+info: WORKER:PID:30973:1430844135492:POD:twilio:UP
+info: WORKER:PID:30973:1430844135556:POD:twitter:UP
+info: WORKER:PID:29778:1430844137707:Worker:56:Disconnect
+info: WORKER:PID:30906:1430844139908:BIPIO:STARTED:Tue May 05 2015 16:42:19 GMT+0000 (UTC)
+info: WORKER:PID:30906:1430844139909:Node v0.10.25
+info: WORKER:PID:30906:1430844139909:Starting 1 fork(s)
+info: WORKER:PID:30906:1430844140043:Caught exception: Error: spawn ENOMEM
+Error: spawn ENOMEM
+  at errnoException (child_process.js:988:11)
+  at ChildProcess.spawn (child_process.js:935:11)
+  at exports.spawn (child_process.js:723:9)
+  at exports.fork (child_process.js:533:10)
+  at child_process.fork (/home/alfonso/bipio/node_modules/coffee-script/lib/coffee-script/register.js:62:14)
+  at new Worker (cluster.js:321:20)
+  at Cluster.cluster.fork (cluster.js:510:11)
+  at Object.<anonymous> (/home/alfonso/bipio/src/server.litcoffee:173:12)
+  at Object.<anonymous> (/home/alfonso/bipio/src/server.litcoffee:17:2)
+  at Module._compile (module.js:456:26)
+  at Object.loadFile (/home/alfonso/bipio/node_modules/coffee-script/lib/coffee-script/register.js:16:19)
+  at Module.load (/home/alfonso/bipio/node_modules/coffee-script/lib/coffee-script/register.js:45:36)
+  at Function.Module._load (module.js:312:12)
+  at Module.require (module.js:364:17)
+  at require (module.js:380:17)
+  at Object.<anonymous> (/home/alfonso/bipio/src/server.js:3:18)
+  at Module._compile (module.js:456:26)
+  at Object.Module._extensions..js (module.js:474:10)
+  at Module.load (module.js:356:32)
+  at Function.Module._load (module.js:312:12)
+  at Function.Module.runMain (module.js:497:10)
+  at startup (node.js:119:16)
+  at node.js:902:3
+info: WORKER:PID:30906:1430844140070:RABBIT:Connected
+info: WORKER:PID:30906:1430844140250:DAO:MONGODB:Connected
+info: WORKER:PID:30906:1430844140288:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:30906:1430844140290:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:30906:1430844140293:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:30906:1430844140448:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:30906:1430844140452:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:30906:1430844140453:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:30906:1430844140454:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:30906:1430844140456:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:29778:1430844192135:Worker:57:Disconnect
+info: WORKER:PID:29778:1430844225981:Worker:58:Disconnect
+info: WORKER:PID:30973:1430844226250:BIPIO:STARTED:Tue May 05 2015 16:43:46 GMT+0000 (UTC)
+info: WORKER:PID:30973:1430844226312:TLD:UP
+info: WORKER:PID:30973:1430844226367:DAO:MONGODB:Connected
+info: WORKER:PID:30973:1430844226699:Listening on :5000 in "development" mode...
+info: WORKER:PID:30973:1430844238556:RABBIT:Connected
+info: WORKER:PID:29672:1430844257196:Worker:2:Disconnect
+info: WORKER:PID:31117:1430844259927:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31117:1430844259928:Resolvable Interface lo:::1
+info: WORKER:PID:31117:1430844259928:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31117:1430844259928:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31117:1430844259928:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31117:1430844259928:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31117:1430844259928:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31144:1430844261241:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31144:1430844261247:Resolvable Interface lo:::1
+info: WORKER:PID:31144:1430844261247:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31144:1430844261247:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31144:1430844261247:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31144:1430844261247:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31144:1430844261247:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31117:1430844261357:POD:email:UP
+info: WORKER:PID:31117:1430844261370:POD:templater:UP
+info: WORKER:PID:31117:1430844261413:POD:flow:UP
+info: WORKER:PID:31117:1430844261440:POD:syndication:UP
+info: WORKER:PID:31117:1430844261448:POD:http:UP
+info: WORKER:PID:31117:1430844281467:POD:time:UP
+info: WORKER:PID:31117:1430844281480:POD:math:UP
+info: WORKER:PID:31117:1430844281487:POD:html:UP
+info: WORKER:PID:31117:1430844281496:POD:crypto:UP
+info: WORKER:PID:31117:1430844281508:POD:soundcloud:UP
+info: WORKER:PID:31117:1430844281544:POD:twilio:UP
+info: WORKER:PID:31117:1430844281593:POD:twitter:UP
+info: WORKER:PID:31144:1430844282201:POD:email:UP
+info: WORKER:PID:31144:1430844282211:POD:templater:UP
+info: WORKER:PID:31144:1430844282220:POD:flow:UP
+info: WORKER:PID:31144:1430844282230:POD:syndication:UP
+info: WORKER:PID:31144:1430844282239:POD:http:UP
+info: WORKER:PID:31144:1430844282668:POD:time:UP
+info: WORKER:PID:31144:1430844282676:POD:math:UP
+info: WORKER:PID:31144:1430844282686:POD:html:UP
+info: WORKER:PID:31144:1430844282693:POD:crypto:UP
+info: WORKER:PID:31144:1430844282728:POD:soundcloud:UP
+info: WORKER:PID:31144:1430844282740:POD:twilio:UP
+info: WORKER:PID:31144:1430844282782:POD:twitter:UP
+info: WORKER:PID:31117:1430844285648:BIPIO:STARTED:Tue May 05 2015 16:44:45 GMT+0000 (UTC)
+info: WORKER:PID:31117:1430844285662:RABBIT:Connected
+info: WORKER:PID:31117:1430844285703:TLD:UP
+info: WORKER:PID:31117:1430844285738:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31117:1430844285739:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31117:1430844285741:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31117:1430844285746:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31117:1430844285753:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31117:1430844285754:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31117:1430844285755:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31117:1430844285756:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31117:1430844285786:DAO:MONGODB:Connected
+info: WORKER:PID:31117:1430844286070:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.59:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844286123:Worker:59:Disconnect
+info: WORKER:PID:31144:1430844286635:BIPIO:STARTED:Tue May 05 2015 16:44:46 GMT+0000 (UTC)
+info: WORKER:PID:31144:1430844286646:RABBIT:Connected
+info: WORKER:PID:31144:1430844286692:TLD:UP
+info: WORKER:PID:31144:1430844286706:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31144:1430844286707:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31144:1430844286708:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31144:1430844286714:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31144:1430844286716:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31144:1430844286717:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31144:1430844286718:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31144:1430844286719:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31144:1430844286755:DAO:MONGODB:Connected
+info: WORKER:PID:31208:1430844288866:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31208:1430844288866:Resolvable Interface lo:::1
+info: WORKER:PID:31208:1430844288867:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31208:1430844288867:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31208:1430844288867:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31208:1430844288867:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31208:1430844288867:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31208:1430844289505:POD:email:UP
+info: WORKER:PID:31208:1430844289510:POD:templater:UP
+info: WORKER:PID:31208:1430844289515:POD:flow:UP
+info: WORKER:PID:31208:1430844289518:POD:syndication:UP
+info: WORKER:PID:31208:1430844289522:POD:http:UP
+info: WORKER:PID:31208:1430844289702:POD:time:UP
+info: WORKER:PID:31208:1430844289706:POD:math:UP
+info: WORKER:PID:31208:1430844289712:POD:html:UP
+info: WORKER:PID:31208:1430844289729:POD:crypto:UP
+info: WORKER:PID:31208:1430844289733:POD:soundcloud:UP
+info: WORKER:PID:31208:1430844289736:POD:twilio:UP
+info: WORKER:PID:31208:1430844289755:POD:twitter:UP
+info: WORKER:PID:31208:1430844291518:BIPIO:STARTED:Tue May 05 2015 16:44:51 GMT+0000 (UTC)
+info: WORKER:PID:31208:1430844291524:RABBIT:Connected
+info: WORKER:PID:31208:1430844291552:TLD:UP
+info: WORKER:PID:31208:1430844291559:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31208:1430844291559:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31208:1430844291560:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31208:1430844291563:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31208:1430844291565:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31208:1430844291565:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31208:1430844291566:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31208:1430844291566:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31208:1430844291582:DAO:MONGODB:Connected
+info: WORKER:PID:31208:1430844291722:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.60:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844291750:Worker:60:Disconnect
+info: WORKER:PID:31227:1430844293426:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31227:1430844293427:Resolvable Interface lo:::1
+info: WORKER:PID:31227:1430844293427:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31227:1430844293427:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31227:1430844293427:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31227:1430844293427:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31227:1430844293427:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31227:1430844293914:POD:email:UP
+info: WORKER:PID:31227:1430844293918:POD:templater:UP
+info: WORKER:PID:31227:1430844293922:POD:flow:UP
+info: WORKER:PID:31227:1430844293926:POD:syndication:UP
+info: WORKER:PID:31227:1430844293930:POD:http:UP
+info: WORKER:PID:31227:1430844294123:POD:time:UP
+info: WORKER:PID:31227:1430844294127:POD:math:UP
+info: WORKER:PID:31227:1430844294130:POD:html:UP
+info: WORKER:PID:31227:1430844294134:POD:crypto:UP
+info: WORKER:PID:31227:1430844294149:POD:soundcloud:UP
+info: WORKER:PID:31227:1430844294153:POD:twilio:UP
+info: WORKER:PID:31227:1430844294170:POD:twitter:UP
+info: WORKER:PID:31227:1430844295909:BIPIO:STARTED:Tue May 05 2015 16:44:55 GMT+0000 (UTC)
+info: WORKER:PID:31227:1430844295915:RABBIT:Connected
+info: WORKER:PID:31227:1430844295936:TLD:UP
+info: WORKER:PID:31227:1430844295943:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31227:1430844295944:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31227:1430844295944:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31227:1430844295948:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31227:1430844295949:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31227:1430844295949:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31227:1430844295950:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31227:1430844295950:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31227:1430844295966:DAO:MONGODB:Connected
+info: WORKER:PID:31227:1430844296108:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.61:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844296131:Worker:61:Disconnect
+info: WORKER:PID:31239:1430844297814:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31239:1430844297814:Resolvable Interface lo:::1
+info: WORKER:PID:31239:1430844297814:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31239:1430844297814:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31239:1430844297815:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31239:1430844297815:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31239:1430844297815:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31239:1430844298312:POD:email:UP
+info: WORKER:PID:31239:1430844298315:POD:templater:UP
+info: WORKER:PID:31239:1430844298319:POD:flow:UP
+info: WORKER:PID:31239:1430844298322:POD:syndication:UP
+info: WORKER:PID:31239:1430844298326:POD:http:UP
+info: WORKER:PID:31239:1430844298508:POD:time:UP
+info: WORKER:PID:31239:1430844298511:POD:math:UP
+info: WORKER:PID:31239:1430844298515:POD:html:UP
+info: WORKER:PID:31239:1430844298518:POD:crypto:UP
+info: WORKER:PID:31239:1430844298533:POD:soundcloud:UP
+info: WORKER:PID:31239:1430844298536:POD:twilio:UP
+info: WORKER:PID:31239:1430844298553:POD:twitter:UP
+info: WORKER:PID:31239:1430844300283:BIPIO:STARTED:Tue May 05 2015 16:45:00 GMT+0000 (UTC)
+info: WORKER:PID:31239:1430844300290:RABBIT:Connected
+info: WORKER:PID:31239:1430844300314:TLD:UP
+info: WORKER:PID:31239:1430844300321:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31239:1430844300322:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31239:1430844300323:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31239:1430844300326:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31239:1430844300327:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31239:1430844300328:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31239:1430844300329:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31239:1430844300329:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31239:1430844300346:DAO:MONGODB:Connected
+info: WORKER:PID:31239:1430844300489:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.62:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844300511:Worker:62:Disconnect
+info: WORKER:PID:31251:1430844302190:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31251:1430844302191:Resolvable Interface lo:::1
+info: WORKER:PID:31251:1430844302191:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31251:1430844302191:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31251:1430844302191:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31251:1430844302191:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31251:1430844302191:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31251:1430844302689:POD:email:UP
+info: WORKER:PID:31251:1430844302693:POD:templater:UP
+info: WORKER:PID:31251:1430844302696:POD:flow:UP
+info: WORKER:PID:31251:1430844302700:POD:syndication:UP
+info: WORKER:PID:31251:1430844302703:POD:http:UP
+info: WORKER:PID:31251:1430844302888:POD:time:UP
+info: WORKER:PID:31251:1430844302892:POD:math:UP
+info: WORKER:PID:31251:1430844302895:POD:html:UP
+info: WORKER:PID:31251:1430844302899:POD:crypto:UP
+info: WORKER:PID:31251:1430844302902:POD:soundcloud:UP
+info: WORKER:PID:31251:1430844302906:POD:twilio:UP
+info: WORKER:PID:31251:1430844302934:POD:twitter:UP
+info: WORKER:PID:31251:1430844304668:BIPIO:STARTED:Tue May 05 2015 16:45:04 GMT+0000 (UTC)
+info: WORKER:PID:31251:1430844304674:RABBIT:Connected
+info: WORKER:PID:31251:1430844304696:TLD:UP
+info: WORKER:PID:31251:1430844304703:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31251:1430844304704:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31251:1430844304704:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31251:1430844304707:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31251:1430844304709:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31251:1430844304709:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31251:1430844304710:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31251:1430844304710:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31251:1430844304727:DAO:MONGODB:Connected
+info: WORKER:PID:31251:1430844304874:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.63:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844304895:Worker:63:Disconnect
+info: WORKER:PID:31265:1430844306563:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31265:1430844306564:Resolvable Interface lo:::1
+info: WORKER:PID:31265:1430844306564:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31265:1430844306564:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31265:1430844306564:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31265:1430844306565:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31265:1430844306565:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31265:1430844307080:POD:email:UP
+info: WORKER:PID:31265:1430844307083:POD:templater:UP
+info: WORKER:PID:31265:1430844307087:POD:flow:UP
+info: WORKER:PID:31265:1430844307090:POD:syndication:UP
+info: WORKER:PID:31265:1430844307094:POD:http:UP
+info: WORKER:PID:31265:1430844307279:POD:time:UP
+info: WORKER:PID:31265:1430844307283:POD:math:UP
+info: WORKER:PID:31265:1430844307286:POD:html:UP
+info: WORKER:PID:31265:1430844307290:POD:crypto:UP
+info: WORKER:PID:31265:1430844307304:POD:soundcloud:UP
+info: WORKER:PID:31265:1430844307308:POD:twilio:UP
+info: WORKER:PID:31265:1430844307326:POD:twitter:UP
+info: WORKER:PID:31265:1430844309077:BIPIO:STARTED:Tue May 05 2015 16:45:09 GMT+0000 (UTC)
+info: WORKER:PID:31265:1430844309083:RABBIT:Connected
+info: WORKER:PID:31265:1430844309105:TLD:UP
+info: WORKER:PID:31265:1430844309112:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31265:1430844309113:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31265:1430844309114:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31265:1430844309117:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31265:1430844309118:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31265:1430844309119:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31265:1430844309119:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31265:1430844309120:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31265:1430844309136:DAO:MONGODB:Connected
+info: WORKER:PID:31265:1430844309279:Caught exception: Error: bind EADDRINUSE
+Error: bind EADDRINUSE
+  at errnoException (net.js:901:11)
+  at net.js:1081:30
+  at Object.64:1 (cluster.js:592:5)
+  at handleResponse (cluster.js:171:41)
+  at respond (cluster.js:192:5)
+  at handleMessage (cluster.js:202:5)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at child_process.js:392:7
+  at process.handleConversion.net.Native.got (child_process.js:91:7)
+  at process.<anonymous> (child_process.js:391:13)
+  at process.EventEmitter.emit (events.js:117:20)
+  at handleMessage (child_process.js:318:10)
+  at Pipe.channel.onread (child_process.js:343:11)
+info: WORKER:PID:29778:1430844309299:Worker:64:Disconnect
+info: WORKER:PID:31279:1430844311010:Resolvable Interface lo:127.0.0.1
+info: WORKER:PID:31279:1430844311011:Resolvable Interface lo:::1
+info: WORKER:PID:31279:1430844311011:Resolvable Interface eth0:104.130.78.79
+info: WORKER:PID:31279:1430844311011:Resolvable Interface eth0:2001:4801:7825:104:be76:4eff:fe10:3164
+info: WORKER:PID:31279:1430844311011:Resolvable Interface eth0:fe80::be76:4eff:fe10:3164
+info: WORKER:PID:31279:1430844311011:Resolvable Interface eth1:10.210.5.80
+info: WORKER:PID:31279:1430844311011:Resolvable Interface eth1:fe80::be76:4eff:fe10:39c6
+info: WORKER:PID:31279:1430844311516:POD:email:UP
+info: WORKER:PID:31279:1430844311520:POD:templater:UP
+info: WORKER:PID:31279:1430844311523:POD:flow:UP
+info: WORKER:PID:31279:1430844311527:POD:syndication:UP
+info: WORKER:PID:31279:1430844311530:POD:http:UP
+info: WORKER:PID:31279:1430844311715:POD:time:UP
+info: WORKER:PID:31279:1430844311719:POD:math:UP
+info: WORKER:PID:31279:1430844311723:POD:html:UP
+info: WORKER:PID:31279:1430844311726:POD:crypto:UP
+info: WORKER:PID:31279:1430844311741:POD:soundcloud:UP
+info: WORKER:PID:31279:1430844311744:POD:twilio:UP
+info: WORKER:PID:31279:1430844311762:POD:twitter:UP
+info: WORKER:PID:31279:1430844313525:BIPIO:STARTED:Tue May 05 2015 16:45:13 GMT+0000 (UTC)
+info: WORKER:PID:31279:1430844313531:RABBIT:Connected
+info: WORKER:PID:31279:1430844313553:TLD:UP
+info: WORKER:PID:31279:1430844313559:RABBIT:X:bastion_generic:UP
+info: WORKER:PID:31279:1430844313560:RABBIT:X:bastion_jobs:UP
+info: WORKER:PID:31279:1430844313561:RABBIT:X:bastion_ctl:UP
+info: WORKER:PID:31279:1430844313564:RABBIT:Q:PUBSUBqueue_bastion:UP
+info: WORKER:PID:31279:1430844313565:BASTION:queue_bastion:consumer attached
+info: WORKER:PID:31279:1430844313566:RABBIT:Q:PUBSUBqueue_jobs:UP
+info: WORKER:PID:31279:1430844313567:BASTION:queue_jobs:consumer attached
+info: WORKER:PID:31279:1430844313567:RABBIT:Q:PUBSUBqueue_bastion_ctl:UP
+info: WORKER:PID:31279:1430844313595:DAO:MONGODB:Connected
