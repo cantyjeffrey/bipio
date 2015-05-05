@@ -1,15 +1,3 @@
-# The Bipio API Server
-
-Authors:
-
-[Michael Pearson](https://github.com/mjpearson)  
-[Alfonso Gober](https://github.com/alfonsogoberjr)  
-[Scott Tuddenham](https://github.com/tuddman)  
-
-Copyright (c) 2015 [Wot.io](https://wot.io)
-
-----
-
 ## Router
 
 This is the ExpressJS REST API front-end routing wrapper.
