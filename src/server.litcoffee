@@ -123,6 +123,8 @@ if user has provided a jwt header, try to parse
 		else
 			next()
 
+#### setCors
+
 	setCORS = (req, res, next) ->
 		res.header 'Access-Control-Allow-Origin', req.headers.origin
 		res.header 'Access-Control-Allow-Headers', req.headers['access-control-request-headers'] or '*'
@@ -130,7 +132,7 @@ if user has provided a jwt header, try to parse
 		res.header 'Access-Control-Allow-Credentials', true
 		next()
 
-#### Express Middleware
+### Express Middleware
 
 	restapi.use app.modules.cdn.utils.HTTPFormHandler()
 	restapi.use xmlBodyParser
@@ -164,7 +166,7 @@ if user has provided a jwt header, try to parse
 	restapi.disable 'x-powered-by'
 	
 
-#### Cluster
+### Cluster
 
 	if cluster.isMaster
 
@@ -314,7 +316,7 @@ fetch scrubbed community transforms from upstream
 			else
 				server = http.createServer(restapi)
 
-#### Start server
+#### Server Start
 
 			server.listen GLOBAL.CFG.server.port, GLOBAL.CFG.server.host, ->
 				rCache = require.cache
