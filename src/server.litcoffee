@@ -31,6 +31,9 @@ You should have received a copy of the GNU General Public License along with thi
 	passport 				= require('passport')
 	cron 					= require('cron')
 	MongoStore 				= require('connect-mongo')(session: session)
+	
+Set global vars
+
 	global.domain 			= require('domain')
 	global.jwt 				= require('jsonwebtoken')
 	global.pkg 				= require('../package.json')
