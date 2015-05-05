@@ -31,10 +31,10 @@ You should have received a copy of the GNU General Public License along with thi
 	passport 				= require('passport')
 	cron 					= require('cron')
 	MongoStore 				= require('connect-mongo')(session: session)
-	domain 					= require('domain')
-	jwt 					= require('jsonwebtoken')
-	pkg 					= require('../package.json')
-	bipioVersion			= pkg.version
+	global.domain 			= require('domain')
+	global.jwt 				= require('jsonwebtoken')
+	global.pkg 				= require('../package.json')
+	global.bipioVersion		= pkg.version
 
 export app everywhere
 
