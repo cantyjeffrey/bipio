@@ -1,4 +1,4 @@
-## The Bipio API Server
+# The Bipio API Server
 
 Authors:
 
@@ -13,6 +13,8 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this program. If not, see [here](http://www.gnu.org/licenses/)
+
+----
 
 	bootstrap 				= require(__dirname + '/bootstrap')
 	app 					= bootstrap.app
@@ -50,21 +52,21 @@ because express bodyparser looks broken or too strict.
 			return next()
 		req.body = req.body or {}
 
-		# ignore GET
+ignore GET
 		
 		if 'GET' is req.method or 'HEAD' is req.method
 			return next()
 
-		# check Content-Type
+check Content-Type
 	
 		if !/xml/.test(enc)
 			return next()
 
-		# flag as parsed
+flag as parsed
 		
 		req._body = true
 
-		# parse
+parse
 
 		buf = ''
 		req.setEncoding 'utf8'
@@ -116,7 +118,7 @@ if user has provided a jwt header, try to parse
 						_jwtDeny res, e.message
 			catch e
 
-				# jsonwebtoken doesn't catch parse errors by itself.
+jsonwebtoken doesn't catch parse errors by itself.
 
 				app.logmessage e.message, 'error'
 				_jwtDeny res, e.message
@@ -149,7 +151,7 @@ if user has provided a jwt header, try to parse
 	restapi.use methodOverride()
 	restapi.use cookieParser()
 
-	#required for some oauth providers
+required for some oauth providers
 
 	restapi.use session(
 		key: 'sid'
@@ -252,7 +254,7 @@ fetch scrubbed community transforms from upstream
 					), null, true, GLOBAL.CFG.timezone)
 
 		cluster.on 'disconnect', (worker) ->
-			app.logmessage 'Worker:' + worker.workerID + ':Disconnect'
+			app.logmessage "Worker:#{worker.workerID}:Disconnect"
 			cluster.fork()
 
 	else
@@ -323,4 +325,4 @@ fetch scrubbed community transforms from upstream
 				for k of rCache
 					if rCache.hasOwnProperty(k) and rCache[k].exports and rCache[k].exports.readme
 						delete rCache[k].exports.readme
-				app.logmessage 'Listening on :' + GLOBAL.CFG.server.port + ' in "' + restapi.settings.env + '" mode...'
+				app.logmessage "Listening on : #{GLOBAL.CFG.server.port} in #{restapi.settings.env} mode..."
