@@ -39,7 +39,7 @@ Set global vars
 	global.pkg 				= require('../package.json')
 	global.bipioVersion		= pkg.version
 
-export app everywhere
+export app everywhere, like in [bootstrap.js](/bootstrap.js)
 
 	module.exports.app = app
 
