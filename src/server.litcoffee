@@ -36,11 +36,13 @@ You should have received a copy of the GNU General Public License along with thi
 	pkg 					= require('../package.json')
 	bipioVersion			= pkg.version
 
-export app everywhere
+	#export app everywhere
 
 	module.exports.app = app
 
-express bodyparser looks broken or too strict.
+#### xmlBodyParser
+
+because express bodyparser looks broken or too strict.
 
 	xmlBodyParser = (req, res, next) ->
 		enc = helper.getMime(req)
@@ -48,21 +50,21 @@ express bodyparser looks broken or too strict.
 			return next()
 		req.body = req.body or {}
 
-ignore GET
+		# ignore GET
 		
 		if 'GET' is req.method or 'HEAD' is req.method
 			return next()
 
-check Content-Type
+		# check Content-Type
 	
 		if !/xml/.test(enc)
 			return next()
 
-flag as parsed
+		# flag as parsed
 		
 		req._body = true
 
-parse
+		# parse
 
 		buf = ''
 		req.setEncoding 'utf8'
@@ -73,8 +75,12 @@ parse
 		req.on 'end', ->
 			next()
 
+#### jwqtDeny
+
 	_jwtDeny = (res, extra) ->
 		res.status(403).send 'Invalid X-JWT-Signature ' + (if extra then '- ' + extra else '')
+
+#### jwtConfirm
 
 if user has provided a jwt header, try to parse
 
@@ -110,7 +116,7 @@ if user has provided a jwt header, try to parse
 						_jwtDeny res, e.message
 			catch e
 
-jsonwebtoken doesn't catch parse errors by itself.
+				# jsonwebtoken doesn't catch parse errors by itself.
 
 				app.logmessage e.message, 'error'
 				_jwtDeny res, e.message
@@ -124,7 +130,7 @@ jsonwebtoken doesn't catch parse errors by itself.
 		res.header 'Access-Control-Allow-Credentials', true
 		next()
 
-LOAD EXPRESS MIDDLEWARE
+#### Express Middleware
 
 	restapi.use app.modules.cdn.utils.HTTPFormHandler()
 	restapi.use xmlBodyParser
@@ -141,7 +147,7 @@ LOAD EXPRESS MIDDLEWARE
 	restapi.use methodOverride()
 	restapi.use cookieParser()
 
-required for some oauth providers
+	#required for some oauth providers
 
 	restapi.use session(
 		key: 'sid'
@@ -158,7 +164,7 @@ required for some oauth providers
 	restapi.disable 'x-powered-by'
 	
 
-START CLUSTER
+#### Cluster
 
 	if cluster.isMaster
 
@@ -307,6 +313,9 @@ fetch scrubbed community transforms from upstream
 				server = https.createServer(opts, restapi)
 			else
 				server = http.createServer(restapi)
+
+#### Start server
+
 			server.listen GLOBAL.CFG.server.port, GLOBAL.CFG.server.host, ->
 				rCache = require.cache
 				for k of rCache
