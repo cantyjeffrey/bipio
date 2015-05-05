@@ -36,7 +36,7 @@ You should have received a copy of the GNU General Public License along with thi
 	pkg 					= require('../package.json')
 	bipioVersion			= pkg.version
 
-export app everywhere
+export app everywhere, like in [bootstrap.js](/bootstrap.js)
 
 	module.exports.app = app
 
