@@ -52,21 +52,21 @@ because express bodyparser looks broken or too strict.
 			return next()
 		req.body = req.body or {}
 
-ignore GET
+		# ignore GET
 		
 		if 'GET' is req.method or 'HEAD' is req.method
 			return next()
 
-check Content-Type
+		# check Content-Type
 	
 		if !/xml/.test(enc)
 			return next()
 
-flag as parsed
+		# flag as parsed
 		
 		req._body = true
 
-parse
+		# parse
 
 		buf = ''
 		req.setEncoding 'utf8'
@@ -118,7 +118,7 @@ if user has provided a jwt header, try to parse
 						_jwtDeny res, e.message
 			catch e
 
-jsonwebtoken doesn't catch parse errors by itself.
+				# jsonwebtoken doesn't catch parse errors by itself.
 
 				app.logmessage e.message, 'error'
 				_jwtDeny res, e.message
@@ -151,7 +151,7 @@ jsonwebtoken doesn't catch parse errors by itself.
 	restapi.use methodOverride()
 	restapi.use cookieParser()
 
-required for some oauth providers
+	# required for some oauth providers
 
 	restapi.use session(
 		key: 'sid'
@@ -172,7 +172,7 @@ required for some oauth providers
 
 	if cluster.isMaster
 
-when user hasn't explicitly configured a cluster size, use 1 process per cpu
+	# when user hasn't explicitly configured a cluster size, use 1 process per cpu
 
 		forks = if GLOBAL.CFG.server.forks then GLOBAL.CFG.server.forks else require('os').cpus().length
 		app.logmessage 'BIPIO:STARTED:' + new Date
@@ -185,7 +185,7 @@ when user hasn't explicitly configured a cluster size, use 1 process per cpu
 		app.dao.on 'ready', (dao) ->
 			crons = GLOBAL.CFG.crons
 
-Network chords and stats summaries
+	# Network chords and stats summaries
 
 			if crons and crons.stat and '' is not crons.stat
 				app.logmessage 'DAO:Starting Stats Cron', 'info'
@@ -198,7 +198,7 @@ Network chords and stats summaries
 							app.logmessage 'STATS:DONE'
 				), null, true, GLOBAL.CFG.timezone)
 
-periodic triggers
+	# periodic triggers
 
 			if crons and crons.trigger and '' is not crons.trigger
 				app.logmessage 'DAO:Starting Trigger Cron', 'info'
@@ -211,7 +211,7 @@ periodic triggers
 							app.logmessage 'TRIGGER:DONE'
 				), null, true, GLOBAL.CFG.timezone)
 
-auto-expires
+	# auto-expires
 
 			if crons and crons.expire and '' is not crons.expire
 				app.logmessage 'DAO:Starting Expiry Cron', 'info'
@@ -224,14 +224,14 @@ auto-expires
 							app.logmessage 'EXPIRE:DONE'
 				), null, true, GLOBAL.CFG.timezone)
 			
-oAuth refresh
+	# oAuth refresh
 			
 			app.logmessage 'DAO:Starting OAuth Refresh', 'info'
 			oauthRefreshJob = new (cron.CronJob)('0 */15 * * * *', (->
 				dao.refreshOAuth()
 			), null, true, GLOBAL.CFG.timezone)
 
-compile popular transforms into transform_defaults.
+	# compile popular transforms into transform_defaults.
 
 			if crons and crons.transforms_compact and '' is not crons.transforms_compact
 				app.logmessage 'DAO:Starting Transform Compaction Cron', 'info'
@@ -243,7 +243,7 @@ compile popular transforms into transform_defaults.
 							app.logmessage 'DAO:Transform Compaction:Done'
 				), null, true, GLOBAL.CFG.timezone)
 
-fetch scrubbed community transforms from upstream
+	# fetch scrubbed community transforms from upstream
 
 			if GLOBAL.CFG.transforms and GLOBAL.CFG.transforms.fetch
 				if crons and crons.transforms_fetch and '' is not crons.transforms_fetch
